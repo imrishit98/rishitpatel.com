@@ -1,0 +1,32 @@
+/* Base styles */
+@import "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Inter:wght@400;500;600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: $dark-grey;
+}
+
+body {
+  margin: 0;
+}
+
+@for $index from 1 through 6 {
+  h#{$index} {
+    font-family: "Montserrat", sans-serif;
+    color: $black;
+    font-weight: 600;
+  }
+}
+
+::selection {
+  background-color: transparentize($color: $purple, $amount: 0.11);
+  color: $white;
+}

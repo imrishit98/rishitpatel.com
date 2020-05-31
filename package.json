@@ -1,16 +1,20 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "rishitpatel.com",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Rishit Patel's Blog",
+  "version": "1.0.0",
+  "author": "Rishit Patel",
   "dependencies": {
+    "@mdx-js/mdx": "^1.6.5",
+    "@mdx-js/react": "^1.6.5",
     "gatsby": "^2.21.37",
     "gatsby-image": "^2.4.4",
     "gatsby-plugin-manifest": "^2.4.5",
+    "gatsby-plugin-mdx": "^1.2.13",
     "gatsby-plugin-offline": "^3.2.3",
     "gatsby-plugin-react-helmet": "^3.3.1",
     "gatsby-plugin-sharp": "^2.6.4",
+    "gatsby-remark-images": "^3.3.8",
     "gatsby-source-filesystem": "^2.3.4",
     "gatsby-transformer-sharp": "^2.5.2",
     "prop-types": "^15.7.2",
@@ -36,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/imrishit98/rishitpatel.com"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/imrishit98/rishitpatel.com/issues"
   }
 }

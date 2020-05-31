@@ -1,0 +1,67 @@
+/* Main styles */
+/* Base styles */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Inter:wght@400;500;600&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #454545;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 600;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 600;
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-weight: 600;
+}
+
+::-moz-selection {
+  background-color: rgba(102, 51, 153, 0.89);
+  color: #fff;
+}
+
+::selection {
+  background-color: rgba(102, 51, 153, 0.89);
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */

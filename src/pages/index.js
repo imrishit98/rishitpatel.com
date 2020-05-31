@@ -6,17 +6,21 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+  <div>
+    <h1>Hello Rishit This is RishitPatel.com!</h1>
+    <h1>
+      Test Title How to create ER Diagram of an existing database using MySQL
+      Workbench
+    </h1>
+    <p>
+      Many other languages do not have corresponding syntax for destructuring,
+      rest parameters, and spread, so these features may have a learning curve
+      both for new JavaScript developers and those coming from another language.
+      In this article, you will learn how to destructure objects and arrays, how
+      to use the spread operator to unpack objects and arrays, and how to use
+      rest parameters in function calls.
+    </p>
+  </div>
 )
 
 export default IndexPage

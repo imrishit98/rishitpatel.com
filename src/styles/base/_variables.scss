@@ -4,4 +4,17 @@
 $white: #fff;
 $black: #000;
 $purple: #663399;
-$dark-grey: #454545;
+$dark-gray: #454545;
+$font-primary: $dark-gray;
+$link-hover: $purple;
+
+//breakpoints
+$xxl: 1920px;
+$xl: 1440px;
+$lg: 1068px;
+$md: 991px;
+$sm: 767px;
+$xs: 478px;
+
+//width
+$maxW: 878px;

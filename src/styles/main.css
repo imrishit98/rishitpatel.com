@@ -55,6 +55,11 @@ h6 {
   font-weight: 600;
 }
 
+a {
+  text-decoration: none;
+  color: #454545;
+}
+
 ::-moz-selection {
   background-color: rgba(102, 51, 153, 0.89);
   color: #fff;
@@ -63,5 +68,135 @@ h6 {
 ::selection {
   background-color: rgba(102, 51, 153, 0.89);
   color: #fff;
+}
+
+.cContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 878px;
+  margin: 0 auto;
+  padding: 0 2.4vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 1920px) {
+  .cContainer {
+    max-width: 1420px;
+  }
+}
+
+.navbar {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .brand {
+  height: 100%;
+}
+
+.navbar .brand img {
+  height: 90%;
+  width: auto;
+}
+
+.navbar .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .links a {
+  font-weight: 500;
+}
+
+.navbar .links a:hover {
+  color: #663399;
+}
+
+.navbar .links a:not(:last-child) {
+  margin-right: 1.25rem;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 21px;
+}
+
+.footer .row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 51px;
+  width: 100%;
+}
+
+.footer .row1 a {
+  font-size: 0.86rem;
+}
+
+.footer .row1 a:hover {
+  color: #663399;
+}
+
+.footer .row1 a:not(:last-child) {
+  margin-right: 1.25rem;
+}
+
+.footer .row1 .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .row1 .social img {
+  width: 2.11rem;
+  height: 2.11rem;
+}
+
+.footer .row2 {
+  height: 36px;
+}
+
+.footer .row2 span img {
+  vertical-align: middle;
 }
 /*# sourceMappingURL=main.css.map */

@@ -6,7 +6,8 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <div>
+  <Layout>
+<div>
     <h1>Hello Rishit This is RishitPatel.com!</h1>
     <h1>
       Test Title How to create ER Diagram of an existing database using MySQL
@@ -21,6 +22,8 @@ const IndexPage = () => (
       rest parameters in function calls.
     </p>
   </div>
+  </Layout>
+  
 )
 
 export default IndexPage

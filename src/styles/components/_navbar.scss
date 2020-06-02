@@ -1,0 +1,22 @@
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  .brand {
+    height: 100%;
+    img {
+      height: 90%;
+      width: auto;
+    }
+  }
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    a {
+      @include impLinks;
+      font-weight: 500;
+    }
+  }
+}

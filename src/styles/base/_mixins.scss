@@ -2,13 +2,13 @@
 
 // Media queries
 
-@mixin maxw($wVal) {
+@mixin maxW($wVal) {
   @media (max-width: ($wVal)) {
     @content;
   }
 }
 
-@mixin minw($wVal) {
+@mixin minW($wVal) {
   @media (min-width: ($wVal)) {
     @content;
   }
@@ -28,5 +28,14 @@
   @include maxw(768px) {
     font-size: 0.7rem;
     padding: 0.47rem 0.67rem;
+  }
+}
+
+@mixin impLinks {
+  &:hover {
+    color: $link-hover;
+  }
+  &:not(:last-child) {
+    margin-right: 1.25rem;
   }
 }

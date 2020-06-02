@@ -1,5 +1,5 @@
 /* Base styles */
-@import "./variables";
+//@import "./variables";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Inter:wght@400;500;600&display=swap");
 
 *,
@@ -11,7 +11,7 @@
 html {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  color: $dark-grey;
+  color: $font-primary;
 }
 
 body {
@@ -24,6 +24,11 @@ body {
     color: $black;
     font-weight: 600;
   }
+}
+
+a {
+  text-decoration: none;
+  color: $font-primary;
 }
 
 ::selection {

@@ -15,3 +15,18 @@
     max-width: 1420px;
   }
 }
+
+blockquote {
+  background-color: $bq;
+  color: $black;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  margin: 0 0 0.75rem;
+  border-left: 4px solid $bq-dark;
+  border-radius: 1.1px;
+
+  p {
+    margin: 0;
+  }
+}

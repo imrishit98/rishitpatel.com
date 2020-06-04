@@ -1,6 +1,6 @@
 /* Main styles */
 /* Base styles */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600;700;900&display=swap");
 *,
 *::before,
 *::after {
@@ -23,36 +23,58 @@ h1 {
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: 600;
+  margin: 0 0 0.8rem;
+  font-size: 2.27727rem;
+  line-height: 2.48727rem;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: 600;
+  margin: 0 0 0.7rem;
+  font-size: 1.99455rem;
+  line-height: 2.20455rem;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: 600;
+  margin: 0 0 0.6rem;
+  font-size: 1.71182rem;
+  line-height: 1.92182rem;
 }
 
 h4 {
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: 600;
+  margin: 0 0 0.5rem;
+  font-size: 1.42909rem;
+  line-height: 1.63909rem;
 }
 
 h5 {
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: 600;
+  margin: 0 0 0.4rem;
+  font-size: 1.14636rem;
+  line-height: 1.35636rem;
 }
 
 h6 {
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-weight: 600;
+  margin: 0 0 0.3rem;
+  font-size: 0.86364rem;
+  line-height: 1.07364rem;
+}
+
+p {
+  margin: 0 0 0.5rem;
 }
 
 a {
@@ -60,14 +82,82 @@ a {
   color: #454545;
 }
 
+abbr {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+  cursor: help;
+}
+
+acronym {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+  cursor: help;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+  cursor: help;
+  text-decoration: none;
+}
+
+thead {
+  text-align: left;
+}
+
+td,
+th {
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  font-feature-settings: "tnum";
+  -moz-font-feature-settings: "tnum";
+  -ms-font-feature-settings: "tnum";
+  -webkit-font-feature-settings: "tnum";
+  padding-left: 0.96667rem;
+  padding-right: 0.96667rem;
+  padding-top: 0.725rem;
+  padding-bottom: calc(0.725rem - 1px);
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
+tt {
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono", "Liberation Mono", Menlo, Courier, monospace;
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
 ::-moz-selection {
-  background-color: rgba(102, 51, 153, 0.89);
+  background-color: rgba(73, 10, 155, 0.89);
   color: #fff;
 }
 
 ::selection {
-  background-color: rgba(102, 51, 153, 0.89);
+  background-color: rgba(73, 10, 155, 0.89);
   color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 6.7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 1.1px #8a4fc4;
+          box-shadow: inset 0 0 1.1px #8a4fc4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8a4fc4;
 }
 
 .cContainer {
@@ -94,8 +184,23 @@ a {
   }
 }
 
+blockquote {
+  background-color: #d9bbf5;
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  margin: 0 0 0.75rem;
+  border-left: 4px solid #490a9b;
+  border-radius: 1.1px;
+}
+
+blockquote p {
+  margin: 0;
+}
+
 .navbar {
-  height: 50px;
+  height: 64px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,7 +239,7 @@ a {
 }
 
 .navbar .links a:hover {
-  color: #663399;
+  color: #490a9b;
 }
 
 .navbar .links a:not(:last-child) {
@@ -167,11 +272,11 @@ a {
 }
 
 .footer .row1 a {
-  font-size: 0.86rem;
+  font-size: 0.87rem;
 }
 
 .footer .row1 a:hover {
-  color: #663399;
+  color: #490a9b;
 }
 
 .footer .row1 a:not(:last-child) {
@@ -198,5 +303,114 @@ a {
 
 .footer .row2 span img {
   vertical-align: middle;
+}
+
+pre {
+  padding: 1rem;
+  border-radius: 4.11px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.76rem;
+  max-width: 100%;
+  overflow-x: auto;
+  /* Track */
+  /* Handle */
+}
+
+pre::-webkit-scrollbar {
+  height: 6.7px;
+}
+
+pre::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 4px #8a4fc4;
+          box-shadow: inset 0 0 4px #8a4fc4;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background: #8a4fc4;
+}
+
+pre .line-number-style {
+  margin-right: 0.75rem;
+  padding-left: 4px;
+  color: #c3c3c4;
+  vertical-align: middle;
+}
+
+pre .highlight-line {
+  background-color: rgba(182, 125, 236, 0.19);
+  -webkit-box-shadow: -2.21px 0 0 0;
+          box-shadow: -2.21px 0 0 0;
+}
+
+.posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2rem;
+}
+
+.posts .onePost {
+  width: 100%;
+  cursor: pointer;
+}
+
+.posts .onePost:not(:last-child) {
+  border-bottom: 1px solid rgba(25, 6, 44, 0.54);
+}
+
+.posts .onePost:hover {
+  background-color: rgba(182, 125, 236, 0.09);
+  border-radius: 2.71px;
+}
+
+.posts .onePost .postLink {
+  display: block;
+  padding: 1.21rem 2.11rem;
+  width: 100%;
+  height: 100%;
+}
+
+.posts .onePost .postLink .postTitle {
+  margin: 0 0 0.21rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.posts .onePost .postLink .postData {
+  margin: 0 0 0.11rem;
+  font-size: 0.81rem;
+}
+
+.post {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 100%;
+}
+
+.post a {
+  background: -webkit-gradient(linear, left top, left bottom, from(#490a9b), to(#490a9b));
+  background: linear-gradient(to bottom, #490a9b 0%, #490a9b 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 6px 2.11px;
+  color: #490a9b;
+  -webkit-transition: background-size 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: background-size 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
+  font-weight: 600;
+}
+
+.post a:hover {
+  background-size: 4px 50px;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

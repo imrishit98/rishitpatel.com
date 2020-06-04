@@ -40,7 +40,8 @@ const Footer = () => {
       </div>
       <div className="row2">
         <span>
-          Made with <img src={heart} alt="Love" /> by Rishit Patel
+          Made with <img src={heart} alt="Love" /> by{" "}
+          <span style={{ fontWeight: "500" }}>Rishit Patel</span>
         </span>
       </div>
     </footer>

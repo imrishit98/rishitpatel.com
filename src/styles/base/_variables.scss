@@ -4,9 +4,40 @@
 $white: #fff;
 $black: #000;
 $purple: #663399;
+$dark-purple: #490a9b;
 $dark-gray: #454545;
+$light-gray: #f5edf5;
+$purple-gray: #b67dec;
 $font-primary: $dark-gray;
-$link-hover: $purple;
+$link: $purple;
+$link-hover: $dark-purple;
+$separator: transparentize(
+  $color:
+    darken(
+      $color: $purple-gray,
+      $amount: 61%,
+    ),
+  $amount: 0.46,
+);
+$post-hover: transparentize(
+  $color: $purple-gray,
+  $amount: 0.91,
+);
+
+$bq: lighten(
+  $color: $purple-gray,
+  $amount: 14%,
+);
+$bq-dark: $dark-purple;
+
+//code colors
+$code-background: #2a2734;
+$code-gray: #c3c3c4;
+$code-orange: #1525ff;
+$code-scrollbar: lighten(
+  $color: $purple,
+  $amount: 14%,
+);
 
 //breakpoints
 $xxl: 1920px;

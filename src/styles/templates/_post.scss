@@ -1,0 +1,20 @@
+.post {
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  max-width: 100%;
+  a {
+    background: linear-gradient(to bottom, $link-hover 0%, $link-hover 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 6px 2.11px;
+    color: $link-hover;
+    transition: background-size 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
+    font-weight: 600;
+  }
+
+  a:hover {
+    background-size: 4px 50px;
+    color: $white;
+  }
+}

@@ -1,13 +1,29 @@
 import React from "react"
-import "../styles/main.css"
+import { MDXProvider } from "@mdx-js/react"
+import { preToCodeBlock } from "mdx-utils"
 import Navbar from "./navbar"
 import Footer from "./footer"
+import Code from "./code"
+import "../styles/main.css"
+
+const components = {
+  pre: preProps => {
+    const props = preToCodeBlock(preProps)
+    if (props) {
+      return <Code {...props} />
+    } else {
+      return <pre {...preProps} />
+    }
+  },
+}
 
 const Layout = props => {
   return (
     <>
       <Navbar />
-      <main>{props.children}</main>
+      <MDXProvider components={components}>
+        <main className="cContainer">{props.children}</main>
+      </MDXProvider>
       <Footer />
     </>
   )

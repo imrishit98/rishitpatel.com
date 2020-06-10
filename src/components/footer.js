@@ -11,8 +11,7 @@ const Footer = () => {
     <footer className="footer cContainer">
       <div className="row1">
         <div className="links">
-          <Link to="/">Privacy Policy</Link>
-          <Link to="/">Terms and Conditions</Link>
+          <Link to="/privacy-policy/">Privacy Policy</Link>
         </div>
         <div className="social">
           <a

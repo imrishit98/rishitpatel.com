@@ -530,6 +530,20 @@ blockquote p {
   font-size: 0.81rem;
 }
 
+.privacy-policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.privacy-policy .privacy-body h5 {
+  margin-top: 1.7rem;
+}
+
 .post {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;

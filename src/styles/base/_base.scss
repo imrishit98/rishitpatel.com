@@ -1,6 +1,6 @@
 /* Base styles */
 //@import "./variables";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;541;571;700&display=swap");
 
 *,
 *::before,
@@ -23,12 +23,15 @@ body {
   $margin: (0.9rem - ($index / 10));
   $size: (2.56rem - (($index / 11) * 3.11));
   h#{$index} {
-    font-family: "Montserrat", sans-serif;
     color: $black;
-    font-weight: 600;
+    font-weight: 571;
     margin: 0 0 $margin;
     font-size: $size;
     line-height: $size + 0.21rem;
+    @include maxW($md) {
+      font-size: $size - 0.27rem;
+      line-height: $size - 0.27rem;
+    }
   }
 }
 
@@ -39,6 +42,10 @@ p {
 a {
   text-decoration: none;
   color: $font-primary;
+}
+
+img {
+  max-width: 100%;
 }
 
 abbr {
@@ -87,8 +94,16 @@ tt {
   padding-top: 0.2em;
   padding-bottom: 0.2em;
 }
+
+code {
+  background-color: darken($color: $light-gray, $amount: 2.7%);
+  padding: 1px 4px;
+  color: $black;
+  border-radius: 2px;
+}
+
 ::selection {
-  background-color: transparentize($color: $link-hover, $amount: 0.11);
+  background-color: transparentize($color: $link-hover, $amount: 0.21);
   color: $white;
 }
 

@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import { MDXProvider } from "@mdx-js/react"
 import { preToCodeBlock } from "mdx-utils"
 import Navbar from "./navbar"
@@ -20,9 +21,14 @@ const components = {
 const Layout = props => {
   return (
     <>
+      <Helmet>
+        <html lang="en" />
+        <title>RishitPatel.com</title>
+        <meta name="description" content="RishitPatel.com" />
+      </Helmet>
       <Navbar />
       <MDXProvider components={components}>
-        <main className="cContainer">{props.children}</main>
+        <main style={{ marginTop: "87px" }}>{props.children}</main>
       </MDXProvider>
       <Footer />
     </>

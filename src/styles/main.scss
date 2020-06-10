@@ -10,9 +10,11 @@
 @import "./components/navbar";
 @import "./components/footer";
 @import "./components/code";
+@import "./components/tags";
 
 //pages
 @import "./pages/blog";
 
 //templates
 @import "./templates/post";
+@import "./templates/tags";

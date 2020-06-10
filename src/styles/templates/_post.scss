@@ -3,18 +3,46 @@
   text-align: left;
   align-items: flex-start;
   max-width: 100%;
-  a {
-    background: linear-gradient(to bottom, $link-hover 0%, $link-hover 100%);
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 6px 2.11px;
-    color: $link-hover;
-    transition: background-size 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
-    font-weight: 600;
+  .tag-container {
+    display: block;
+    margin-bottom: 1rem;
+    a {
+      display: inline-block;
+      padding: 0.27rem 0.47rem;
+      background-color: $tag-back;
+      border-radius: 0.21rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      &:hover {
+        background-color: darken($color: $tag-back, $amount: 7%);
+      }
+      .oneTag {
+        color: $tag;
+        font-size: 0.78rem;
+        font-weight: 500;
+      }
+    }
   }
+  .postBody {
+    a {
+      //background: linear-gradient(to bottom, $link-hover 0%, $link-hover 100%);
+      color: $link-hover;
+      transition: background-color 0.11s ease-in-out; //cubic-bezier(0.33, 0.66, 0.66, 1);
+      font-weight: 500;
+      padding: 0 3.1px;
+      margin: 0 -3.1px;
+    }
 
-  a:hover {
-    background-size: 4px 50px;
-    color: $white;
+    a:hover {
+      background-color: $link-hover;
+      color: $white;
+      border-radius: 2.4px;
+    }
+    sup {
+      font-size: 0.57rem;
+      a {
+        background: none;
+      }
+    }
   }
 }

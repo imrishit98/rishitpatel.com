@@ -13,11 +13,8 @@ $link: $purple;
 $link-hover: $dark-purple;
 $separator: transparentize(
   $color:
-    darken(
-      $color: $purple-gray,
-      $amount: 61%,
-    ),
-  $amount: 0.46,
+    $purple-gray,
+  $amount: 0.51,
 );
 $post-hover: transparentize(
   $color: $purple-gray,
@@ -29,6 +26,12 @@ $bq: lighten(
   $amount: 14%,
 );
 $bq-dark: $dark-purple;
+
+$tag-back: transparentize(
+  $color: $purple-gray,
+  $amount: 0.6,
+);
+$tag: $dark-purple;
 
 //code colors
 $code-background: #2a2734;

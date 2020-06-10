@@ -33,23 +33,24 @@ const Code = ({ codeString, language, metastring, ...props }) => {
     >
       {({ className, style, tokens, getLineProps, getTokenProps }) => (
         <div className="gatsby-highlight" data-language={language}>
-          <pre className={className} style={style}>
-            {tokens.map((line, i) => {
-              const lineProps = getLineProps({ line, key: i })
+          <pre className={className}>
+            <code className={className}>
+              {tokens.map((line, i) => {
+                const lineProps = getLineProps({ line, key: i })
 
-              if (shouldHighlightLine(i)) {
-                lineProps.className = `${lineProps.className} highlight-line`
-              }
+                if (shouldHighlightLine(i)) {
+                  lineProps.className = `${lineProps.className} highlight-line`
+                }
 
-              return (
-                <div {...lineProps}>
-                  <span className="line-number-style">{i + 1}</span>
-                  {line.map((token, key) => (
-                    <span {...getTokenProps({ token, key })} />
-                  ))}
-                </div>
-              )
-            })}
+                return (
+                  <div {...lineProps}>
+                    {line.map((token, key) => (
+                      <span {...getTokenProps({ token, key })} />
+                    ))}
+                  </div>
+                )
+              })}
+            </code>
           </pre>
         </div>
       )}

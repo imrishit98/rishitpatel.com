@@ -1,33 +1,51 @@
-pre {
-  padding: 1rem;
-  border-radius: 4.11px;
-  font-family: "Inter", sans-serif;
-  font-size: 0.76rem;
-  max-width: 100%;
-  overflow-x: auto;
+.gatsby-highlight {
+  pre {
+    display: block;
+    background-color: $code-background;
+    border-radius: 4.11px;
+    box-shadow: 1px 1px 21px 1px rgba(0, 0, 0, 0.2);
+    font-size: 0.86rem;
+    white-space: pre;
+    code {
+      display: block;
+      background: transparent;
+      font-family: "Inter", sans-serif;
+      font-size: 100%;
+      overflow-x: auto;
+      padding: 11px;
+      min-width: 100%;
+      padding: 1.5rem;
+      line-height: 1.25rem;
 
-  &::-webkit-scrollbar {
-    height: 6.7px;
-  }
+      &::-webkit-scrollbar {
+        height: 6.7px;
+      }
 
-  /* Track */
-  &::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 4px $code-scrollbar;
-  }
+      /* Track */
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 4px $code-scrollbar;
+      }
 
-  /* Handle */
-  &::-webkit-scrollbar-thumb {
-    background: $code-scrollbar;
-  }
-
-  .line-number-style {
-    margin-right: 0.75rem;
-    padding-left: 4px;
-    color: $code-gray;
-    vertical-align: middle;
-  }
-  .highlight-line {
-    background-color: transparentize($color: $purple-gray, $amount: 0.81);
-    box-shadow: -2.21px 0 0 0;
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: $code-scrollbar;
+      }
+    }
+    .line-number-style {
+      display: none;
+      margin-right: 0.75rem;
+      padding-left: 4px;
+      color: $code-gray;
+      vertical-align: middle;
+    }
+    .highlight-line {
+      display: block;
+      background-color: transparentize($color: $purple-gray, $amount: 0.76);
+      border-left: 3px solid;
+      min-width: 100%;
+      font-size: 100%;
+      margin: 0 -1.5rem;
+      padding: 0 1.25rem;
+    }
   }
 }

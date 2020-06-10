@@ -1,22 +1,47 @@
-.navbar {
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 64px;
-  display: flex;
-  justify-content: space-between;
-  .brand {
-    height: 100%;
-    img {
-      height: 90%;
-      width: auto;
-    }
-  }
-  .links {
+  background-color: $white;
+  z-index: 10;
+
+  .navContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    a {
-      @include impLinks;
-      font-weight: 500;
+    max-width: $maxW;
+    height: 100%;
+    margin: auto;
+    padding: 0 2.4vw;
+    .brand {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: auto;
+      a {
+        height: 67%;
+        width: auto;
+        img {
+          height: 100%;
+          width: auto;
+        }
+      }
+    }
+    .links {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      a {
+        @include impLinks;
+        font-weight: 541;
+        padding: 4px;
+      }
+      .active {
+        color: $link-hover;
+      }
     }
   }
 }

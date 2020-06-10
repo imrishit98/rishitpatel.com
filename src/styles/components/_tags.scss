@@ -11,7 +11,7 @@
     li {
       float: left;
       background-color: $tag-back;
-      border-radius: 0.4rem;
+      border-radius: 0.17rem;
       margin-bottom: 1.1rem;
       &:not(:last-child) {
         margin-right: 1.1rem;
@@ -30,7 +30,8 @@
           margin: 0 0.1rem;
           background-color: $tag;
           color: $white;
-          border-radius: 0.17rem;
+          border-radius: 0.14rem;
+          font-size: 1.27rem;
         }
       }
     }

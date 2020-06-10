@@ -222,6 +222,10 @@ code {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   overflow-wrap: break-word;
 }
 
@@ -458,7 +462,7 @@ blockquote p {
 .allTags .tagList li {
   float: left;
   background-color: rgba(182, 125, 236, 0.4);
-  border-radius: 0.4rem;
+  border-radius: 0.17rem;
   margin-bottom: 1.1rem;
 }
 
@@ -483,17 +487,11 @@ blockquote p {
   margin: 0 0.1rem;
   background-color: #490a9b;
   color: #fff;
-  border-radius: 0.17rem;
+  border-radius: 0.14rem;
+  font-size: 1.27rem;
 }
 
 .posts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   margin-top: 2rem;
 }
 
@@ -530,25 +528,11 @@ blockquote p {
   font-size: 0.81rem;
 }
 
-.privacy-policy {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 .privacy-policy .privacy-body h5 {
   margin-top: 1.7rem;
 }
 
 .post {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   text-align: left;
   -webkit-box-align: start;
       -ms-flex-align: start;
@@ -601,22 +585,6 @@ blockquote p {
 
 .post .postBody sup a {
   background: none;
-}
-
-.oneTagPage {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .oneTagPage .tagPostList {

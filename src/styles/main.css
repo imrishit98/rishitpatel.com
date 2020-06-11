@@ -1,6 +1,7 @@
 /* Main styles */
 /* Base styles */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;541;571;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 *,
 *::before,
 *::after {
@@ -27,7 +28,7 @@ h1 {
   line-height: 2.48727rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   h1 {
     font-size: 2.00727rem;
     line-height: 2.00727rem;
@@ -42,7 +43,7 @@ h2 {
   line-height: 2.20455rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   h2 {
     font-size: 1.72455rem;
     line-height: 1.72455rem;
@@ -57,7 +58,7 @@ h3 {
   line-height: 1.92182rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   h3 {
     font-size: 1.44182rem;
     line-height: 1.44182rem;
@@ -72,7 +73,7 @@ h4 {
   line-height: 1.63909rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   h4 {
     font-size: 1.15909rem;
     line-height: 1.15909rem;
@@ -87,7 +88,7 @@ h5 {
   line-height: 1.35636rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   h5 {
     font-size: 0.87636rem;
     line-height: 0.87636rem;
@@ -102,7 +103,7 @@ h6 {
   line-height: 1.07364rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   h6 {
     font-size: 0.59364rem;
     line-height: 0.59364rem;
@@ -475,20 +476,77 @@ blockquote p {
 }
 
 .allTags .tagList li a {
-  display: block;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #490a9b;
-  padding: 1.1rem;
-  font-size: 1.4rem;
+  padding: 0.87rem;
+  font-size: 1.21rem;
   font-weight: 571;
 }
 
 .allTags .tagList li a .tagCount {
-  padding: 0.21rem 0.71rem;
-  margin: 0 0.1rem;
+  padding: 0.16rem 0.46rem;
   background-color: #490a9b;
   color: #fff;
   border-radius: 0.14rem;
-  font-size: 1.27rem;
+  font-size: 1.11rem;
+  vertical-align: inherit;
+}
+
+.hero {
+  font-family: "Montserrat", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  max-width: 94vw;
+  height: 72vh;
+  margin: 0 auto;
+  color: #000;
+}
+
+.hero .hero-big {
+  font-size: 6.1rem;
+  font-weight: 600;
+  line-height: 5.4rem;
+}
+
+.hero .hero-small-up,
+.hero .hero-small-down {
+  font-size: 1.6rem;
+}
+
+.hero .hero-small-up {
+  margin-bottom: 0.31rem;
+}
+
+@media (max-width: 768px) {
+  .hero .hero-big {
+    font-size: 14vw;
+    line-height: normal;
+  }
+  .hero .hero-small-up {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 478px) {
+  .hero .hero-small-up,
+  .hero .hero-small-down {
+    font-size: 6vw;
+  }
 }
 
 .posts {
@@ -587,8 +645,13 @@ blockquote p {
   background: none;
 }
 
+.oneTagPage h1 {
+  text-align: center;
+}
+
 .oneTagPage .tagPostList {
   list-style: none;
+  padding: 0;
 }
 
 .oneTagPage .tagPostList li {

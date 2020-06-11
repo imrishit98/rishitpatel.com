@@ -7,8 +7,10 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <div className="cContainer">
-      <h1>Hello Rishit This is RishitPatel.com!</h1>
+    <div className="hero">
+      <span className="hero-small-up">Hi, I'm</span>
+      <span className="hero-big">Rishit Patel</span>
+      <span className="hero-small-down">I make awesome websites!</span>
     </div>
   </Layout>
 )

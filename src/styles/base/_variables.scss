@@ -12,8 +12,7 @@ $font-primary: $dark-gray;
 $link: $purple;
 $link-hover: $dark-purple;
 $separator: transparentize(
-  $color:
-    $purple-gray,
+  $color: $purple-gray,
   $amount: 0.51,
 );
 $post-hover: transparentize(
@@ -46,8 +45,8 @@ $code-scrollbar: lighten(
 $xxl: 1920px;
 $xl: 1440px;
 $lg: 1068px;
-$md: 991px;
-$sm: 767px;
+$md: 992px;
+$sm: 768px;
 $xs: 478px;
 
 //width

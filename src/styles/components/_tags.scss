@@ -20,18 +20,19 @@
         background-color: darken($color: $tag-back, $amount: 16%);
       }
       a {
-        display: block;
+        display: inline-block;
+        align-items: center;
         color: $tag;
-        padding: 1.1rem;
-        font-size: 1.4rem;
+        padding: 0.87rem;
+        font-size: 1.21rem;
         font-weight: 571;
         .tagCount {
-          padding: 0.21rem 0.71rem;
-          margin: 0 0.1rem;
+          padding: 0.16rem 0.46rem;
           background-color: $tag;
           color: $white;
           border-radius: 0.14rem;
-          font-size: 1.27rem;
+          font-size: 1.11rem;
+          vertical-align: inherit;
         }
       }
     }

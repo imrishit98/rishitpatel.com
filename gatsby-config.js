@@ -1,8 +1,16 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://rishitpatel.com`,
     title: `RishitPatel.com`,
+    titleTemplate: `%s - Rishit Patel`,
     description: `Rishit Patel's blog`,
-    author: `@imrishit98`,
+    headline: `Everything best about technology!`,
+    author: `Rishit Patel`,
+    image: `/images/rp-logo.svg`,
+    siteLanguage: `en`,
+    ogLanguage: `en_US`,
+    twitter: `@imrishit98`,
+    facebook: `RishitPatel.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -34,6 +42,23 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    `gatsby-plugin-advanced-sitemap`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://rishitpatel.com",
+        sitemap: "https://rishitpatel.com/sitemap.xml",
+        resolveEnv: () => process.env.GATSBY_ENV,
+        env: {
+          development: {
+            policy: [{ userAgent: "*", disallow: ["/"] }],
+          },
+          production: {
+            policy: [{ userAgent: "*", allow: "/" }],
+          },
+        },
       },
     },
     {

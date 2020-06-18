@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 // Components
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
+import { Helmet } from "react-helmet"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
@@ -13,30 +14,33 @@ const Tags = ({ pageContext, data }) => {
   } tagged with "${tag}"`
 
   return (
-    <Layout>
-      <div className="cContainer oneTagPage">
-        <h1>{tagHeader}</h1>
-        <ul className="tagPostList">
-          {edges.map(({ node }) => {
-            const { slug } = node.frontmatter
-            const { title } = node.frontmatter
-            const { date } = node.frontmatter
-            const { author } = node.frontmatter
-            return (
-              <li key={slug}>
-                <Link to={slug}>
-                  <h4>{title}</h4>
-                  <span>
-                    {date} &nbsp; {author}
-                  </span>
-                </Link>
-              </li>
-            )
-          })}
-        </ul>
-        <Link to="/tags/">All tags</Link>
-      </div>
-    </Layout>
+    <>
+      <Helmet title={`Posts tagged with ${tag} - RishitPatel.com`} />
+      <Layout>
+        <div className="cContainer oneTagPage">
+          <h1>{tagHeader}</h1>
+          <ul className="tagPostList">
+            {edges.map(({ node }) => {
+              const { slug } = node.frontmatter
+              const { title } = node.frontmatter
+              const { date } = node.frontmatter
+              const { author } = node.frontmatter
+              return (
+                <li key={slug}>
+                  <Link to={slug}>
+                    <h4>{title}</h4>
+                    <span>
+                      {date} &nbsp; {author}
+                    </span>
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
+          <Link to="/tags/">All tags</Link>
+        </div>
+      </Layout>
+    </>
   )
 }
 

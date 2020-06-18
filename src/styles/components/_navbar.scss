@@ -1,9 +1,9 @@
 .nav {
-  position: fixed;
+  //position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 64px;
+  height: 126px;
   background-color: $white;
   z-index: 10;
 
@@ -21,8 +21,9 @@
       height: 100%;
       width: auto;
       a {
-        height: 67%;
+        height: 34%;
         width: auto;
+        padding-left: 1.1px;
         img {
           height: 100%;
           width: auto;
@@ -41,6 +42,16 @@
       }
       .active {
         color: $link-hover;
+      }
+    }
+  }
+  @include maxW($sm) {
+    height: 56px;
+    .navContainer {
+      .brand {
+        a {
+          height: 61%;
+        }
       }
     }
   }

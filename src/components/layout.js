@@ -22,7 +22,7 @@ const Layout = props => {
     <>
       <Navbar />
       <MDXProvider components={components}>
-        <main style={{ marginTop: "87px" }}>{props.children}</main>
+        <main>{props.children}</main>
       </MDXProvider>
       <Footer />
     </>

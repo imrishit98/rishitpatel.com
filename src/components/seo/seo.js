@@ -6,7 +6,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Facebook from "./facebook"
 import Twitter from "./twitter"
 
-const SEO = ({ title, desc, image, pathname, article, node }) => {
+const SEO = ({ title, desc, image, pathname, datePub, dateMod, article }) => {
   const { site } = useStaticQuery(query)
 
   const {
@@ -110,8 +110,8 @@ const SEO = ({ title, desc, image, pathname, article, node }) => {
           url: `${siteUrl}${defaultImage}`,
         },
       },
-      datePublished: node.first_publication_date,
-      dateModified: node.last_publication_date,
+      datePublished: datePub,
+      dateModified: dateMod,
       description: seo.description,
       headline: seo.title,
       inLanguage: siteLanguage,
@@ -148,10 +148,7 @@ const SEO = ({ title, desc, image, pathname, article, node }) => {
         <html lang={siteLanguage} />
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
-        <meta
-          name="RishitPatel.com"
-          content="Personal website of Rishit Patel"
-        />
+        <link rel="canonical" href={seo.url} />
         {!article && (
           <script type="application/ld+json">
             {JSON.stringify(schemaOrgWebPage)}
@@ -189,7 +186,6 @@ SEO.propTypes = {
   image: PropTypes.string,
   pathname: PropTypes.string,
   article: PropTypes.bool,
-  node: PropTypes.object,
 }
 SEO.defaultProps = {
   title: null,
@@ -197,7 +193,6 @@ SEO.defaultProps = {
   image: null,
   pathname: null,
   article: false,
-  node: null,
 }
 const query = graphql`
   query SEO {

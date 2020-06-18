@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 
 const Blog = () => {
@@ -12,7 +13,7 @@ const Blog = () => {
             frontmatter {
               slug
               title
-              date(formatString: "MMMM DD, YYYY")
+              date(formatString: "YYYY-MM-DD")
               author
             }
             id
@@ -22,29 +23,37 @@ const Blog = () => {
     }
   `)
   return (
-    <Layout>
-      <div className="cContainer">
-        <section className="posts">
-          {posts.allMdx.edges.map(edge => {
-            return (
-              <div className="onePost" key={edge.node.frontmatter.title}>
-                <Link
-                  to={`/${edge.node.frontmatter.slug}/`}
-                  key={edge.node.frontmatter.slug}
-                  className="postLink"
-                >
-                  <h3 className="postTitle">{edge.node.frontmatter.title}</h3>
-                  <p className="postData">
-                    {edge.node.frontmatter.date} &nbsp;{" "}
-                    {edge.node.frontmatter.author}
-                  </p>
-                </Link>
-              </div>
-            )
-          })}
-        </section>
-      </div>
-    </Layout>
+    <>
+      <SEO
+        title={`Blog - Rishit Patel`}
+        desc={`Personal blog of Rishit Patel. This is the place where I write about things I like, make and learn about tech!`}
+        dateMod={`2020-06-17`}
+        pathname={`/blog`}
+      />
+      <Layout>
+        <div className="cContainer">
+          <section className="posts">
+            {posts.allMdx.edges.map(edge => {
+              return (
+                <div className="onePost" key={edge.node.frontmatter.title}>
+                  <Link
+                    to={`/${edge.node.frontmatter.slug}/`}
+                    key={edge.node.frontmatter.slug}
+                    className="postLink"
+                  >
+                    <h3 className="postTitle">{edge.node.frontmatter.title}</h3>
+                    <p className="postData">
+                      {edge.node.frontmatter.date} &nbsp;{" "}
+                      {edge.node.frontmatter.author}
+                    </p>
+                  </Link>
+                </div>
+              )
+            })}
+          </section>
+        </div>
+      </Layout>
+    </>
   )
 }
 

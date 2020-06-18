@@ -7,7 +7,11 @@ import SEO from "../components/seo/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO
+      title="RishitPatel.com - Personal website of Rishit Patel"
+      desc="RishitPatel.com is the personal website of Rishit Patel, a web developer and tech enthusiastic shares his work, thoughts and knowledge!"
+      pathname={`/`}
+    />
     <div className="hero">
       <span className="hero-small-up">Hi, I'm</span>
       <span className="hero-big">Rishit Patel</span>

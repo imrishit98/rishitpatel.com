@@ -1,0 +1,16 @@
+---
+title: "The Boot Process"
+slug: "the-boot-process"
+date: 2019-03-29
+dateModified: 2020-06-21
+author: "Rishit Patel"
+description: "Every computer has some type of start-up process, which is typically called the boot process. This post explains the boot process of computers."
+featureImage: The-boot-process.png
+tags: ["PC", "Computers"]
+---
+
+Every computer has some type of start-up process, which is typically called the boot process. The name ‘boot’ is a short word for the word ‘bootstrap’, which was used in old days to describe the process of computer pulling itself by its bootstraps. The boot process is essentially set of steps that the computer checks itself to be sure everything is working fine and loads some minimal operational software and loads the OS (Operating System).
+
+The boot process follows certain steps to boot the computer. The first step of boot process is applying power to the computer. When computer is turned on, a series of events begins that ends when the OS gets the control of boot process. In this process, the CPU (Central Processor Unit) executes some start up code in ROM (Read Only Memory) that is located on the motherboard. This is called as loading of BIOS (Basic Input Output System) or UEFI (Unified Extensible Firmware Interface). BIOS/UEFI is a low-level software that initializes computer’s hardware to make sure everything is good to go. After this, next step in the boot process is POST, which is called power on self test. This self test checks and initializes all connected hardware including RAM (Random-Access Memory) and secondary storage devices to make sure that everything is working properly.
+
+After POST process is completed, the boot process searches for the boot device. The boot devices are the devices that are attached to our system, like hard drives, SSD drives, CD drives, USB drives, etc. These devices are configured in a certain boot order. The devices will be checked according this order and the computer will search and select for the bootloader which has a operating system on it. Now, the boot process starts loading the operating system. Once the OS is loaded, our kernel also gets loaded. The kernel controls access to our computer resources. The kernel also loads the hardware drivers so that our hardware can communicate with our software. Now, the routine system process and user space items are launched, this includes the pre-configured start up routines like user log ins, spinning up a standard desktop environment and more which basically allows user to interact with the computer. Now, the boot process is finished, and the computer is ready to use.

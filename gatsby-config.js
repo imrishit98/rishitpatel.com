@@ -3,7 +3,7 @@ module.exports = {
     siteUrl: `https://rishitpatel.com`,
     title: `RishitPatel.com`,
     titleTemplate: `%s - Rishit Patel`,
-    description: `RishitPatel.com is the personal website of Rishit Patel, a web developer and tech enthusiastic shares his work, thoughts and knowledge!`,
+    description: `RishitPatel.com is the personal website of Rishit Patel, a Web Developer and Tech Enthusiastic living and exploring Ontario, Canada.`,
     headline: `Everything best about technology!`,
     author: `Rishit Patel`,
     image: `/images/rp-logo.svg`,

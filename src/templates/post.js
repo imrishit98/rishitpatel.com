@@ -48,10 +48,11 @@ const Post = props => {
         <div className="cContainer">
           <article className="post">
             {/* <Img
-            fluid={
-              props.data.mdx.frontmatter.featureImage.childImageSharp.fluid
-            }
-          /> */}
+              fluid={
+                props.data.mdx.frontmatter.featureImage.childImageSharp.fluid
+              }
+              alt={props.data.mdx.frontmatter.title}
+            /> */}
             <div className="postUpArea">
               <h1 className="postTitle">{props.data.mdx.frontmatter.title}</h1>
               <p className="postData">

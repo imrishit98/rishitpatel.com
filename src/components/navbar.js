@@ -13,12 +13,16 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="links">
-          <Link to="/" activeClassName="active">
-            Home
-          </Link>
           <Link to="/about/" activeClassName="active">
             About
           </Link>
+          <a
+            href="https://www.rishit.codes/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Portfolio
+          </a>
           <Link to="/blog/" activeClassName="active">
             Blog
           </Link>

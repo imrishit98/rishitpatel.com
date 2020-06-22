@@ -50,15 +50,7 @@ module.exports = {
       options: {
         host: "https://rishitpatel.com",
         sitemap: "https://rishitpatel.com/sitemap.xml",
-        resolveEnv: () => process.env.GATSBY_ENV,
-        env: {
-          development: {
-            policy: [{ userAgent: "*", disallow: ["/"] }],
-          },
-          production: {
-            policy: [{ userAgent: "*", allow: "/" }],
-          },
-        },
+        policy: [{ userAgent: "*", allow: "/" }],
       },
     },
     {

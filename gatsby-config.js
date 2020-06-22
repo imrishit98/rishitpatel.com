@@ -54,6 +54,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-73079055-1",
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `rishitpatel.com`,

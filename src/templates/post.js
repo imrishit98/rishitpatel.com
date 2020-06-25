@@ -6,6 +6,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import PostTags from "../components/postTags"
 import SEO from "../components/seo/seo"
+import Ads from "../components/ads"
 
 export const query = graphql`
   query($slug: String!) {
@@ -63,6 +64,9 @@ const Post = props => {
             </div>
             <div className="postBody">
               <MDXRenderer>{props.data.mdx.body}</MDXRenderer>
+            </div>
+            <div className="ad">
+              <Ads />
             </div>
           </article>
         </div>

@@ -143,6 +143,10 @@ thead {
   text-align: left;
 }
 
+table {
+  margin-bottom: 1.7rem;
+}
+
 td,
 th {
   text-align: left;

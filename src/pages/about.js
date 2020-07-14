@@ -15,6 +15,7 @@ import mysql from "../images/tech/mysql.svg"
 import nodejs from "../images/tech/nodejs.svg"
 import react from "../images/tech/react.svg"
 import gatsby from "../images/tech/gatsby.svg"
+import java from "../images/tech/java.svg"
 
 const About = () => {
   return (
@@ -37,42 +38,41 @@ const About = () => {
             </p>
             <h1>Tech Stack</h1>
             <div className="techs">
-              <div className="line1">
-                <div className="tech">
-                  <img src={html5} alt="HTML5" title="HTML" />
-                </div>
-                <div className="tech">
-                  <img src={css3} alt="CSS" title="CSS" />
-                </div>
-                <div className="tech">
-                  <img src={javascript} alt="JavaScript" title="JavaScript" />
-                </div>
-                <div className="tech">
-                  <img src={sass} alt="Sass" title="Sass" />
-                </div>
-                <div className="tech">
-                  <img src={wordpress} alt="WordPress" title="WordPress" />
-                </div>
-                <div className="tech">
-                  <img src={bootstrap} alt="Bootstrap" title="Bootstrap" />
-                </div>
+              <div className="tech">
+                <img src={html5} alt="HTML5" title="HTML" />
               </div>
-              <div className="line2">
-                <div className="tech">
-                  <img src={figma} alt="Figma" title="Figma" />
-                </div>
-                <div className="tech">
-                  <img src={mysql} alt="MySQL" title="MySQL" />
-                </div>
-                <div className="tech">
-                  <img src={nodejs} alt="NodeJS" title="NodeJS" />
-                </div>
-                <div className="tech">
-                  <img src={react} alt="React" title="React" />
-                </div>
-                <div className="tech">
-                  <img src={gatsby} alt="Gatsby" title="Gatsby" />
-                </div>
+              <div className="tech">
+                <img src={css3} alt="CSS" title="CSS" />
+              </div>
+              <div className="tech">
+                <img src={javascript} alt="JavaScript" title="JavaScript" />
+              </div>
+              <div className="tech">
+                <img src={sass} alt="Sass" title="Sass" />
+              </div>
+              <div className="tech">
+                <img src={wordpress} alt="WordPress" title="WordPress" />
+              </div>
+              <div className="tech">
+                <img src={bootstrap} alt="Bootstrap" title="Bootstrap" />
+              </div>
+              <div className="tech">
+                <img src={figma} alt="Figma" title="Figma" />
+              </div>
+              <div className="tech">
+                <img src={mysql} alt="MySQL" title="MySQL" />
+              </div>
+              <div className="tech">
+                <img src={nodejs} alt="NodeJS" title="NodeJS" />
+              </div>
+              <div className="tech">
+                <img src={react} alt="React" title="React & React Native" />
+              </div>
+              <div className="tech">
+                <img src={gatsby} alt="Gatsby" title="Gatsby" />
+              </div>
+              <div className="tech">
+                <img src={java} alt="Java" title="Java" />
               </div>
             </div>
           </div>

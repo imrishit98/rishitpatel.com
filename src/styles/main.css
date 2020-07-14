@@ -686,10 +686,6 @@ blockquote p {
   cursor: pointer;
 }
 
-.about .techs .tech:not(:last-child) {
-  margin-right: 1rem;
-}
-
 .about .techs .tech img {
   max-width: 91px;
   max-height: 91px;
@@ -701,11 +697,8 @@ blockquote p {
   .about h1:first-child {
     margin-top: 1rem;
   }
-  .about .techs .tech:not(:last-child) {
-    margin-right: 0rem;
-  }
-  .about .techs .tech img {
-    padding: 11px;
+  .about .techs {
+    gap: 0;
   }
 }
 

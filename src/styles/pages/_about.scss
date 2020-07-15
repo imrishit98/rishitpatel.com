@@ -9,7 +9,7 @@
   }
   .techs {
     display: grid;
-    max-width: 100%;
+    width: 100%;
     gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(111px, 1fr));
 

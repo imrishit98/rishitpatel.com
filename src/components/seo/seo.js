@@ -148,6 +148,10 @@ const SEO = ({ title, desc, image, pathname, datePub, dateMod, article }) => {
         <html lang={siteLanguage} />
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
+        <meta
+          name="google-site-verification"
+          content="yxbYXDr2yuf26UcJL4ay6TPXh9OeWWTAUhKLiwlwxzk"
+        />
         <link rel="canonical" href={seo.url} />
         {!article && (
           <script type="application/ld+json">

@@ -538,6 +538,7 @@ blockquote p {
   white-space: nowrap;
   overflow: hidden;
   font-size: 1.6rem;
+  font-weight: normal;
 }
 
 .hero .hero-small-up {

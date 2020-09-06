@@ -6,7 +6,10 @@ import Layout from "../components/layout"
 const PrivacyPolicy = () => {
   return (
     <>
-      <Helmet title="Privacy Policy - RishitPatel.com" />
+      <Helmet
+        title="Privacy Policy - RishitPatel.com"
+        desc="Privacy Policy and Disclaimer for RishitPatel.com. This privacy policy and disclaimer was last updated and posted on March 08, 2019"
+      />
       <Layout>
         <div className="cContainer privacy-policy">
           <h1>Privacy Policy</h1>

@@ -13,15 +13,14 @@ const TagsPage = ({
   data: {
     allMdx: { group },
     site: {
-      siteMetadata: { title },
+      siteMetadata: { title, description },
     },
   },
 }) => (
   <>
-    <Helmet title="Tags - RishitPatel.com" />
     <Layout>
       <div className="cContainer">
-        <Helmet title={title} />
+        <Helmet title={`Tags - ${title}`} desc={description} />
         <div className="allTags">
           <h1>Tags</h1>
           <ul className="tagList">

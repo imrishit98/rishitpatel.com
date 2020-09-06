@@ -14,8 +14,8 @@ const IndexPage = () => (
     />
     <div className="hero">
       <span className="hero-small-up">Hi, I'm</span>
-      <span className="hero-big">Rishit Patel</span>
-      <span className="hero-small-down">I make awesome websites!</span>
+      <h1 className="hero-big">Rishit Patel</h1>
+      <h2 className="hero-small-down">I make awesome websites!</h2>
     </div>
   </Layout>
 )

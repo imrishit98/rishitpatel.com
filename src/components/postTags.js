@@ -3,6 +3,8 @@ import { Helmet } from "react-helmet"
 import kebabCase from "lodash.kebabcase"
 import { Link } from "gatsby"
 
+import Adsense from "../components/adsense"
+
 class PostTags extends Component {
   render() {
     const { tags } = this.props
@@ -21,6 +23,7 @@ class PostTags extends Component {
               </Link>
             ))}
         </div>
+        <Adsense client="ca-pub-1201474411749621" slot="9205903697" />
       </>
     )
   }

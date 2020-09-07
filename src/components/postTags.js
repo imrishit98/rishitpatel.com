@@ -1,9 +1,8 @@
 import React, { Component } from "react"
 import { Helmet } from "react-helmet"
+//import AdSense from "react-adsense"
 import kebabCase from "lodash.kebabcase"
 import { Link } from "gatsby"
-
-import Adsense from "../components/adsense"
 
 class PostTags extends Component {
   render() {
@@ -23,7 +22,7 @@ class PostTags extends Component {
               </Link>
             ))}
         </div>
-        <Adsense client="ca-pub-1201474411749621" slot="9205903697" />
+        {/* <AdSense.Google client="ca-pub-1201474411749621" slot="9205903697" /> */}
       </>
     )
   }

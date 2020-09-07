@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+//import AdSense from "react-adsense"
 
 // Components
 import { Link, graphql } from "gatsby"
@@ -37,6 +38,7 @@ const Tags = ({ pageContext, data }) => {
               )
             })}
           </ul>
+          {/* <AdSense.Google client="ca-pub-1201474411749621" slot="9205903697" /> */}
           <Link to="/tags/">All tags</Link>
         </div>
       </Layout>

@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import AdSense from "react-adsense"
 import PropTypes from "prop-types"
 
 // Utilities
@@ -8,7 +9,6 @@ import kebabCase from "lodash/kebabCase"
 // Components
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import Adsense from "../components/adsense"
 
 const TagsPage = ({
   data: {
@@ -36,7 +36,7 @@ const TagsPage = ({
           </ul>
         </div>
       </div>
-      <Adsense client="ca-pub-1201474411749621" slot="9205903697" />
+      <AdSense.Google client="ca-pub-1201474411749621" slot="9205903697" />
     </Layout>
   </>
 )

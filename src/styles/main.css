@@ -513,6 +513,7 @@ blockquote p {
 
 .adContainer {
   max-width: 300px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

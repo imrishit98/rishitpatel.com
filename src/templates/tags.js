@@ -1,11 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
-import AdSense from "react-adsense"
+
+import { Link, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 // Components
-import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import { Helmet } from "react-helmet"
+import AdContainer from "../components/adContainer"
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
@@ -40,11 +41,7 @@ const Tags = ({ pageContext, data }) => {
           </ul>
           <Link to="/tags/">All tags</Link>
         </div>
-        <AdSense.Google
-          client="ca-pub-1201474411749621"
-          slot="9205903697"
-          responsive="true"
-        />
+        <AdContainer />
       </Layout>
     </>
   )

@@ -8,7 +8,6 @@ const AdContainer = props => {
         client="ca-pub-1201474411749621"
         slot="9205903697"
         responsive="true"
-        className="adContainer"
       />
     </>
   )

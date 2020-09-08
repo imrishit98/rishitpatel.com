@@ -513,10 +513,8 @@ blockquote p {
 
 .adContainer {
   width: 300px;
-  height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 250px;
+  display: inline-block;
   margin: 1rem auto;
 }
 

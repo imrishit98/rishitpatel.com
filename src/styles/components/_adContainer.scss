@@ -3,4 +3,7 @@
   height: 250px;
   display: inline-block;
   margin: 1rem auto;
+  @include maxW(300px) {
+    display: none;
+  }
 }

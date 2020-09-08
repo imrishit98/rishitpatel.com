@@ -518,6 +518,12 @@ blockquote p {
   margin: 1rem auto;
 }
 
+@media (max-width: 300px) {
+  .adContainer {
+    display: none;
+  }
+}
+
 .hero {
   font-family: "Montserrat", sans-serif;
   display: -webkit-box;

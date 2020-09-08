@@ -1,9 +1,5 @@
 .adContainer {
-  width: 300px;
-  height: 250px;
   display: inline-block;
+  width: 85vw;
   margin: 1rem auto;
-  @include maxW(300px) {
-    display: none;
-  }
 }

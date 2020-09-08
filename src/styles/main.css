@@ -512,16 +512,9 @@ blockquote p {
 }
 
 .adContainer {
-  width: 300px;
-  height: 250px;
   display: inline-block;
+  width: 85vw;
   margin: 1rem auto;
-}
-
-@media (max-width: 300px) {
-  .adContainer {
-    display: none;
-  }
 }
 
 .hero {

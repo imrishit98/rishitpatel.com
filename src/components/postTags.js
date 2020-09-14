@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Helmet } from "react-helmet"
+//import { Helmet } from "react-helmet"
 //import AdSense from "react-adsense"
 import kebabCase from "lodash.kebabcase"
 import { Link } from "gatsby"
@@ -10,10 +10,6 @@ class PostTags extends Component {
 
     return (
       <>
-        <Helmet
-          title="Tags - RishitPatel.com"
-          desc="Find all the tags from posts at RishitPatel.com"
-        />
         <div className="tag-container">
           {tags &&
             tags.map(tag => (

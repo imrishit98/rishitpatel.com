@@ -1,0 +1,82 @@
+---
+title: "HTML5 Boilerplate: A Basic Skeleton File"
+slug: "html5-boilerplate"
+date: 2020-09-09
+dateModified: 2020-09-09
+author: "Rishit Patel"
+description: "HTML5 Boilerplate: A basic skeleton file to start any project."
+featureImage: "html5-boilerplate.jpg"
+tags: ["HTML", "Web Development", "HTML Template"]
+---
+
+Nobody likes writing same code over and over again. That's why here's a HTML5 Boilerplate for your next web dev project. You can copy paste this skeleton code every time you want to create a webpage with HTML.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title></title>
+
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+```
+
+This HTML5 boilerplate code contains some important things that should be included in every HTML5 webpage. Let's go over those important codes.
+
+### The Doctype
+
+First thing in every HTML5 file should be Document Type Declaration, or doctype. This is simply a way to tell the browser what type of document it’s looking at.
+
+```html
+<!DOCTYPE html>
+```
+
+### The HTML tags
+
+Next up in in every HTML5 document should be opening and closing `html` tags. You can specify the language of your webpage by adding `lang` attribute. Here I've declared English language by adding `lang="en"`.
+
+```html
+<!DOCTYPE html>
+<html lang="en"></html>
+```
+
+### The head section
+
+The next part of our webpage is the `head` section. The head section contains items like title of the webpage, meta tags, link tags for stylesheets.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+</html>
+```
+
+### The meta tags
+
+We need to add some meta tags between head tags to define some important things like character encoding of webpage, viewport width, etc. It's not mandatory but it helps browser to understand your webpage better.
+
+```html
+<meta charset="UTF-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
+### Link to custom css and js
+
+You can link your stylesheet file with html webpage by setting `href` attribute of `link` tag to location of your css file. Also, to link your JavaScript file your can set `src` attribute of `script` tag to location of your .js file.
+
+```html
+<link rel="stylesheet" href="css/styles.css" />
+<script src="js/script.js"></script>
+```

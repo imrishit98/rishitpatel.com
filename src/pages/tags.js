@@ -19,9 +19,12 @@ const TagsPage = ({
   },
 }) => (
   <>
+    <Helmet
+      title="Tags - RishitPatel.com"
+      desc="Find all the tags from posts at RishitPatel.com"
+    />
     <Layout>
       <div className="cContainer">
-        <Helmet title={`Tags - ${title}`} desc={description} />
         <div className="allTags">
           <h1>Tags</h1>
           <ul className="tagList">

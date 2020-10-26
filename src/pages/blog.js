@@ -22,6 +22,7 @@ const Blog = () => {
       }
     }
   `)
+
   return (
     <>
       <SEO
@@ -43,8 +44,10 @@ const Blog = () => {
                   >
                     <h3 className="postTitle">{edge.node.frontmatter.title}</h3>
                     <p className="postData">
-                      {edge.node.frontmatter.date} &nbsp;{" "}
-                      {edge.node.frontmatter.author}
+                      {new Date(edge.node.frontmatter.date)
+                        .toDateString()
+                        .slice(4)}{" "}
+                      &nbsp; {edge.node.frontmatter.author}
                     </p>
                   </Link>
                 </div>

@@ -31,6 +31,9 @@ export const query = graphql`
 `
 
 const Post = props => {
+  const postDate = new Date(props.data.mdx.frontmatter.date)
+    .toDateString()
+    .slice(4)
   return (
     <>
       <SEO
@@ -56,8 +59,7 @@ const Post = props => {
             <div className="postUpArea">
               <h1 className="postTitle">{props.data.mdx.frontmatter.title}</h1>
               <p className="postData">
-                {props.data.mdx.frontmatter.date} &nbsp;{" "}
-                {props.data.mdx.frontmatter.author}
+                {postDate} &nbsp; {props.data.mdx.frontmatter.author}
               </p>
               <PostTags tags={props.data.mdx.frontmatter.tags} />
             </div>

@@ -3,7 +3,7 @@ import { Container } from '../ui/containers';
 
 const Footer = () => {
   return (
-    <footer className='py-2 border-t-[1px] border-gray-400'>
+    <footer className='py-2 border-t-[1px] border-gray-400 bg-blue-100 dark:bg-dark'>
       <Container className='flex justify-center items-center text-sm font-medium'>
         © {new Date().getFullYear()}&nbsp;
         <Link href={'/'}>

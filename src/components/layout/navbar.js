@@ -6,7 +6,7 @@ const Navbar = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <nav className='py-4 shadow-sm'>
+    <nav className='py-4 shadow-sm bg-blue-100 dark:bg-dark'>
       <Container className='flex justify-between items-center'>
         <div className='flex items-center '>
           <Link href='/'>

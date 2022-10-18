@@ -10,6 +10,9 @@ module.exports = {
       screens: {
         '3xl': '1920px',
       },
+      colors: {
+        dark: '#283147',
+      },
       keyframes: {
         'fade-in-left': {
           '0%': {

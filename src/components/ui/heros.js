@@ -47,7 +47,7 @@ export const HomepageHero = () => {
         <div className='flex gap-4 social-icons'>
           <SocialIconBtn
             link='https://github.com/imrishit98'
-            className='bg-current'
+            className='bg-black'
           >
             <GitHubLogo />
           </SocialIconBtn>

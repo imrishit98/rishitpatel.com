@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export const JourneyCard = ({ imgSrc, imgAlt, children }) => {
+export const ExperienceCard = ({ imgSrc, imgAlt, children }) => {
   return (
     <div className='flex flex-col gap-2 w-full md:flex-row md:gap-10 md:items-center journey-card'>
       <div className='journey-image'>

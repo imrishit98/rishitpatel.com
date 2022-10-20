@@ -12,9 +12,9 @@ import { Container } from '../containers';
 import { H2, H3, H5 } from '../typography';
 import Section from './index';
 
-const MyProjects = () => {
+const Projects = () => {
   return (
-    <Section>
+    <Section id='projects'>
       <Container className='flex flex-col justify-center items-center gap-10 text-center'>
         <H2>My Projects</H2>
         <div className='flex flex-col justify-center items-center gap-4 w-full lg:flex-row lg:gap-8 xl:gap-12'>
@@ -81,4 +81,4 @@ const MyProjects = () => {
   );
 };
 
-export default MyProjects;
+export default Projects;

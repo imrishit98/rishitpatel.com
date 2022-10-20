@@ -13,3 +13,17 @@ export const SocialIconBtn = ({ link, className, children }) => {
     </Link>
   );
 };
+
+export const TechIconBtn = ({ link = '/', className, children }) => {
+  return (
+    <Link href={link}>
+      <a
+        target='_blank'
+        rel='noopener noreferrer'
+        className={'flex p-1 w-8 rounded-sm ' + className}
+      >
+        {children}
+      </a>
+    </Link>
+  );
+};

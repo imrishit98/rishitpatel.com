@@ -6,8 +6,12 @@ export const H2 = ({ children }) => {
   return <h2 className='text-4xl font-semibold md:text-5xl'>{children}</h2>;
 };
 
-export const H3 = ({ children }) => {
-  return <h3 className='text-3xl font-semibold md:text-4xl'>{children}</h3>;
+export const H3 = ({ className, children }) => {
+  return (
+    <h3 className={'text-3xl font-semibold md:text-4xl ' + className}>
+      {children}
+    </h3>
+  );
 };
 
 export const H4 = ({ children }) => {

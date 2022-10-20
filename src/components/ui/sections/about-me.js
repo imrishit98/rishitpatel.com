@@ -1,9 +1,10 @@
-import { Container } from './containers';
-import { H2 } from './typography';
+import { Container } from '../containers';
+import { H2 } from '../typography';
+import Section from './index';
 
-export const AboutMe = () => {
+const AboutMe = () => {
   return (
-    <section className='py-20'>
+    <Section id='about'>
       <Container className='flex flex-col justify-center items-center gap-10 text-center'>
         <H2>About me</H2>
         <p className='text-lg md:text-xl'>
@@ -12,6 +13,8 @@ export const AboutMe = () => {
           Computer Programmer Analyst at Canadore College.
         </p>
       </Container>
-    </section>
+    </Section>
   );
 };
+
+export default AboutMe;

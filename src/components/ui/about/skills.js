@@ -5,7 +5,7 @@ import { H2, P } from '../typography';
 import Link from 'next/link';
 
 const skills = {
-  ui: ['Next.js', 'Tailwind CSS', 'Shadcn UI', 'Framer Motion'],
+  ui: ['Next.js', 'ReactJS', 'Tailwind CSS', 'Shadcn UI', 'Framer Motion'],
   database: ['Supabase', 'Upstash', 'Pinecone'],
   ai: ['Together AI', 'OpenAI', 'Claude', 'Cursor'],
   other: ['Stripe', 'Cloudflare R2', 'Loops', 'Plausible Analytics', 'Vercel'],

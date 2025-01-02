@@ -4,6 +4,7 @@ import {
   PageHeaderDescription,
   PageHeaderHeading,
 } from '@/components/ui/page-header';
+import { Container } from '@/components/ui/containers';
 
 export const metadata = {
   title: 'Projects - Rishit Patel',
@@ -13,7 +14,7 @@ export const metadata = {
 
 export default function ProjectsPage() {
   return (
-    <div className='container relative pb-8'>
+    <Container className='pb-8'>
       <PageHeader className='pb-8'>
         <PageHeaderHeading>Projects</PageHeaderHeading>
         <PageHeaderDescription>
@@ -23,6 +24,6 @@ export default function ProjectsPage() {
       </PageHeader>
 
       <ProjectsGrid />
-    </div>
+    </Container>
   );
 }

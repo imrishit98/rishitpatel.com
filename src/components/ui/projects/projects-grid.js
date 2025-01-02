@@ -64,6 +64,13 @@ const projects = [
     url: 'https://youfyapp.com/',
     type: 'Fun',
   },
+  {
+    title: 'AI of the Day (Got Acquired)',
+    description:
+      'Your daily dose of AI inspiration! Discover new AI tools, projects, and resources every day. 🤖🌟',
+    url: 'https://aioftheday.com/',
+    type: 'Directory',
+  },
 ];
 
 export function ProjectsGrid() {

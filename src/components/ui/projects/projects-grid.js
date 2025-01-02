@@ -60,7 +60,7 @@ export function ProjectsGrid() {
           key={project.url}
           title={project.title}
           description={project.description}
-          url={project.url}
+          url={project.url + '?ref=rishitpatel'}
           type={project.type}
         />
       ))}

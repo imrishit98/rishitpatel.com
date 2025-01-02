@@ -43,6 +43,13 @@ const projects = [
     url: 'https://revrn.com/',
     type: 'MVP Building Service',
   },
+  {
+    title: 'Tiny AI Tools',
+    description:
+      "AI tools that pack a punch! It's like having a Swiss Army knife for your AI projects. 🧰🤖",
+    url: 'https://tiny.aitools.fyi/',
+    type: 'SaaS',
+  },
 ];
 
 export function ProjectsGrid() {

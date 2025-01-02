@@ -20,6 +20,7 @@ const NavMenu = () => {
     { href: '/about', label: 'About' },
     { href: '/projects', label: 'Projects' },
     { href: 'https://x.com/imrishit98', label: 'Contact' },
+    { href: 'https://github.com/imrishit98/rishitpatel.com', label: 'Source Code' },
   ];
 
   return (

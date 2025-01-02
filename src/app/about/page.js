@@ -13,12 +13,10 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <Container>
-      <div className='max-w-3xl mx-auto py-12 space-y-8'>
-        <AboutHero />
-        <Skills />
-        <Approach />
-        <Contact />
-      </div>
+      <AboutHero />
+      <Skills />
+      <Approach />
+      <Contact />
     </Container>
   );
 }

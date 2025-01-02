@@ -2,7 +2,7 @@ import { ProjectCard } from './project-card';
 
 const projects = [
   {
-    title: 'Directories',
+    title: 'aitools.fyi',
     description:
       'A comprehensive directory of AI tools and resources, helping users discover and compare the latest artificial intelligence solutions.',
     url: 'https://aitools.fyi/',

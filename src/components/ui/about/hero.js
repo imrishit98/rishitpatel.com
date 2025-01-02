@@ -10,7 +10,7 @@ export function AboutHero() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className='space-y-2'>
+      className='space-y-2 py-6'>
       <H1>About Me</H1>
       <P className='text-xl text-muted-foreground'>
         Just a nerd who loves to code and build things. I specialize in money making web

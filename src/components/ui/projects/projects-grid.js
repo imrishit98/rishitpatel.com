@@ -29,6 +29,13 @@ const projects = [
     url: 'https://www.chatsimple.ai/',
     type: 'SaaS',
   },
+  {
+    title: 'World of AI',
+    description:
+      'The ultimate newsletter for AI enthusiasts! Your weekly dose of AI news, delivered with ❤️.',
+    url: 'https://worldofai.beehiiv.com/',
+    type: 'Newsletter',
+  },
 ];
 
 export function ProjectsGrid() {

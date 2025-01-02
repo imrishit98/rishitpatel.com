@@ -6,9 +6,9 @@ import Link from 'next/link';
 
 const skills = {
   ui: ['Next.js', 'Tailwind CSS', 'Shadcn UI'],
-  database: ['Supabase', 'Upstash'],
-  ai: ['Together AI', 'OpenAI', 'Pinecone', 'Claude'],
-  other: ['Stripe', 'Cloudflare R2', 'Loops', 'Plausible Analytics'],
+  database: ['Supabase', 'Upstash', 'Pinecone'],
+  ai: ['Together AI', 'OpenAI', 'Claude', 'Cursor'],
+  other: ['Stripe', 'Cloudflare R2', 'Loops', 'Plausible Analytics', 'Vercel'],
 };
 
 export function Skills() {

@@ -16,9 +16,15 @@ export function Skills() {
       className='space-y-6'>
       <div className='prose dark:prose-invert'>
         <p>
-          I'm a full-stack developer with a passion for building modern, efficient, and
-          user-friendly web applications. My expertise lies in leveraging cutting-edge
-          technologies to create seamless digital experiences.
+          I'm a full-stack developer from Northern Ontario 🍁 that builds money making
+          machines on the web. If you want to make sites that generate revenue, feel free
+          to{' '}
+          <a
+            href='https://tally.so/r/nGX6Bz'
+            className='underline hover:text-primary'>
+            reach out
+          </a>
+          !
         </p>
 
         <h2 className='text-2xl font-semibold mt-8 mb-4'>What I Do</h2>

@@ -4,28 +4,28 @@ const projects = [
   {
     title: 'aitools.fyi',
     description:
-      'A comprehensive directory of AI tools and resources, helping users discover and compare the latest artificial intelligence solutions.',
+      'Your friendly neighborhood AI tool finder! Like a matchmaker for humans and AI, but without the awkward first dates. 🤖❤️',
     url: 'https://aitools.fyi/',
     type: 'Directory',
   },
   {
     title: 'Amazing Newsletters',
     description:
-      'A curated platform showcasing the best newsletters across various topics, helping readers discover valuable content.',
+      'The Netflix of newsletters! Binge-worthy content delivered straight to your inbox, minus the "are you still reading?" prompts. 📧✨',
     url: 'https://amazingnewsletters.com/',
     type: 'Directory',
   },
   {
     title: 'PDF Peer',
     description:
-      'A SaaS platform for advanced PDF processing and manipulation, offering powerful tools for document management.',
+      'The superhero your PDFs deserve! Turning boring documents into well-behaved files faster than you can say "paperless". 📄💪',
     url: 'https://pdfpeer.com/',
     type: 'SaaS',
   },
   {
     title: 'ChatSimple',
     description:
-      'An AI-powered chat platform that simplifies customer interactions and support automation.',
+      "Teaching AI to chat like a pro! It's like having a witty assistant who never needs coffee breaks. 🎭💬",
     url: 'https://www.chatsimple.ai/',
     type: 'SaaS',
   },

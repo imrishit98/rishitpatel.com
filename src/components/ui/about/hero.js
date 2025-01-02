@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { H1, P } from '../typography';
 
 export function AboutHero() {
   return (
@@ -9,13 +10,11 @@ export function AboutHero() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       className='space-y-4'>
-      <h1 className='text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60'>
-        About Me
-      </h1>
-      <p className='text-xl text-muted-foreground'>
+      <H1>About Me</H1>
+      <P className='text-xl text-muted-foreground'>
         Just a nerd who loves to code and build things. I specialize in money making web
         apps and sites.
-      </p>
+      </P>
     </motion.section>
   );
 }

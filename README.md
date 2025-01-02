@@ -1,6 +1,6 @@
 # RishitPatel.com
 
-My personal website and portfolio built with Next.js 14, Tailwind CSS, and shadcn/ui. Features a modern, responsive design with server-side rendering and optimized performance.
+My personal website and portfolio built with Next.js 15, Tailwind CSS, and shadcn/ui. Features a modern, responsive design with server-side rendering and optimized performance.
 
 ## 🚀 Tech Stack
 
@@ -62,7 +62,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 ## 📧 Contact
 
 You can reach me at:
-- Website: [rishitpatel.com/contact](https://rishitpatel.com/contact)
+- Website: [rishitpatel.com](https://rishitpatel.com)
 - Twitter: [@imrishit98](https://twitter.com/imrishit98)
 - LinkedIn: [in/imrishit98](https://linkedin.com/in/imrishit98)
 

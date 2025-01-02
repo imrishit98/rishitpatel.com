@@ -19,18 +19,6 @@ export function Skills() {
       transition={{ duration: 0.6, delay: 0.2 }}
       className='space-y-6'>
       <div className='max-w-4xl'>
-        <P className='mb-4'>
-          I'm a full-stack developer from Northern Ontario 🍁 that builds money making
-          machines on the web. If you want to make sites that generate revenue, feel free
-          to{' '}
-          <Link
-            href='https://tally.so/r/nGX6Bz'
-            className='underline hover:text-primary'>
-            reach out
-          </Link>
-          !
-        </P>
-
         <H2>Tech Stack</H2>
 
         <div className='mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4'>

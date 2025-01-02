@@ -1,8 +1,6 @@
-import { Container } from '@/components/ui/containers';
 import { AboutHero } from '@/components/ui/about/hero';
 import { Skills } from '@/components/ui/about/skills';
-import { Approach } from '@/components/ui/about/approach';
-import { Contact } from '@/components/ui/about/contact';
+import { Container } from '@/components/ui/containers';
 
 export const metadata = {
   title: 'About | Rishit Patel',

@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <Container>
+    <Container className='pt-6 pb-12'>
       <AboutHero />
       <Skills />
       <Approach />

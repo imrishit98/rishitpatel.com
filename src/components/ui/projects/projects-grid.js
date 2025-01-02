@@ -32,7 +32,7 @@ const projects = [
   {
     title: 'World of AI',
     description:
-      'The ultimate newsletter for AI enthusiasts! Your weekly dose of AI news, delivered with ❤️.',
+      'The ultimate newsletter for AI enthusiasts! Your weekly dose of AI news, trends, tutorials, and more delivered with ❤️.',
     url: 'https://worldofai.beehiiv.com/',
     type: 'Newsletter',
   },

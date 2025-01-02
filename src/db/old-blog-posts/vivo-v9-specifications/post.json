@@ -1,0 +1,144 @@
+{
+  "title": "Vivo V9 Specifications",
+  "date": "2018-04-02T00:00:00.000Z",
+  "dateModified": "2020-06-21T00:00:00.000Z",
+  "author": "Rishit Patel",
+  "description": "Vivo's New Selfie Expert Vivo V9 is Out Now! But Is It a Top Notch Smartphone? Read This Post About Vivo V9 Specifications and Find Out!",
+  "tags": [
+    "Smartphones"
+  ],
+  "featureImage": "vivo-v9-specifications.png",
+  "content": [
+    {
+      "type": "section",
+      "title": "BASIC INFORMATION",
+      "data": {
+        "Model": "Vivo V9",
+        "Display": "6.3\" (16 cm)",
+        "Storage": "64 GB Internal + 4GB Ram",
+        "Camera": "16+5 MP Rear + 24 MP Front",
+        "Operating System": "Android 8.1 Oreo",
+        "Battery": "3260 mAh",
+        "Processor": "Snapdragon 626",
+        "Colours Available": "Black and Gold"
+      }
+    },
+    {
+      "type": "section",
+      "title": "DISPLAY",
+      "data": {
+        "Display Type": "IPS LCD",
+        "Screen To Body Ratio": "84.87 %",
+        "Pixel Density": "400 ppi",
+        "Screen Protection": "Corning Gorilla Glass",
+        "Screen Size": "6.3 inches (16 cm)",
+        "Screen Resolution": "1080 x 2280 pixels",
+        "Touch Screen": "Capacitive Touchscreen, Multi-touch"
+      }
+    },
+    {
+      "type": "section",
+      "title": "FRONT CAMERA",
+      "data": {
+        "Settings": "Exposure compensation, ISO control",
+        "Aperture": "F2.0",
+        "Camera Features": "Digital Zoom, Auto Flash, Face detection, Touch to focus",
+        "Image Resolution": "4616 x 3464 Pixels",
+        "Sensor": "CMOS",
+        "Autofocus": "Yes",
+        "Shooting Modes": "Continuous Shooting, High Dynamic Range mode (HDR)",
+        "Resolution": "24 MP Front Camera",
+        "Flash": "Yes Screen flash",
+        "Video Recording": "3840x2160 @ 30 fps"
+      }
+    },
+    {
+      "type": "section",
+      "title": "REAR CAMERA",
+      "data": {
+        "Resolution": "16+5 MP Dual Camera",
+        "Autofocus": "Yes",
+        "HDR": "Yes",
+        "Flash": "Yes LED Flash"
+      }
+    },
+    {
+      "type": "section",
+      "title": "BATTERY",
+      "data": {
+        "User Replaceable": "No",
+        "Type": "Li-ion",
+        "Capacity": "3260 mAh"
+      }
+    },
+    {
+      "type": "section",
+      "title": "SENSORS AND FEATURES",
+      "data": {
+        "Fingerprint Sensor Position": "Rear",
+        "Other Sensors": "Light sensor, Proximity sensor, Accelerometer, Compass, Gyroscope",
+        "Fingerprint Sensor": "Yes",
+        "Pre-Installed Applications": "Google Services - Play Store, Google, Chrome, Google Map, YouTube, Drive, Play Music, Play Movies and TV, Google Duo, Photos, Flipkart, Newspoint, Amazon, UC Browser, WPS office, Whatsapp"
+      }
+    },
+    {
+      "type": "section",
+      "title": "PROCESSOR",
+      "data": {
+        "Chipset": "Qualcomm Snapdragon 626 MSM8953 Pro",
+        "Graphics": "Adreno 506",
+        "Processor": "Octa core, 2.2 GHz, Cortex A53",
+        "Architecture": "64 bit"
+      }
+    },
+    {
+      "type": "section",
+      "title": "STORAGE",
+      "data": {
+        "Internal Memory": "64 GB",
+        "Expandable Memory": "Up to 256 GB",
+        "Ram": "4 GB",
+        "Usb Otg Support": "Yes"
+      }
+    },
+    {
+      "type": "section",
+      "title": "NETWORK CONNECTIVITY",
+      "data": {
+        "Wifi": "Yes Wi-Fi 802.11, a/ac/b/g/n/n 5GHz",
+        "Wifi Features": "Mobile Hotspot",
+        "Bluetooth": "Yes v4.2",
+        "Volte": "Yes",
+        "Usb Connectivity": "USB 2.0, Mass storage device, USB charging, microUSB 2.0",
+        "Sar Value": "Head: 1.380 W/kg, Body: 0.406 W/kg",
+        "Nfc": "No",
+        "Network Support": "4G (supports Indian bands), 3G, 2G",
+        "Gps": "Yes with A-GPS, Glonass",
+        "Sim 1": "4G Bands:TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) FD-LTE 2100(band 1) / 1800(band 3) / 900(band 8) / 850(band 5)3G Bands: UMTS 1900 / 2100 / 850 / 900 MHz2G Bands: GSM 1800 / 1900 / 850 / 900 MHz GPRS:Available EDGE:Available",
+        "Sim Size": "SIM1: Nano, SIM2: Nano",
+        "Sim 2": "4G Bands: TD-LTE 2600(band 38) / 2300(band 40) / 2500(band 41) FD-LTE 2100(band 1) / 1800(band 3) / 900(band 8) / 850(band 5)3G Bands: UMTS 1900 / 2100 / 850 / 900 MHz 2G Bands: GSM 1800 / 1900 / 850 / 900 MHz GPRS:Available EDGE:Available"
+      }
+    },
+    {
+      "type": "section",
+      "title": "BODY",
+      "data": {
+        "Build Material": "Case: Metal",
+        "Thickness": "7.89 mm",
+        "Width": "75.03 mm",
+        "Weight": "150 grams",
+        "Height": "154.81 mm",
+        "Colours": "Pearl Black, Champagne Gold"
+      }
+    },
+    {
+      "type": "section",
+      "title": "AUDIO",
+      "data": {
+        "Loudspeaker": "Yes",
+        "Fm Radio": "Yes",
+        "Audio Jack": "3.5 mm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+---
+title: "How to create ER Diagram of an existing database using MySQL Workbench"
+slug: "how-to-create-er-diagram-of-an-existing-database-using-mysql-workbench"
+date: 2019-11-05
+dateModified: 2020-06-21
+author: "Rishit Patel"
+description: "Step-by-step guide will help you create ER Diagram of an existing database using MySQL Workbench very easily. RishitPatel.com"
+featureImage: how-to-create-er-diagram-of-an-existing-database-using-mysql-workbench.png
+tags: ["mysql", "database"]
+---
+
+<p>
+  The following step-by-step guide will help you&nbsp;
+  <strong>create ER Diagram of an existing database</strong>&nbsp;using&nbsp;
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer noopener">
+    MySQL
+  </a>
+  &nbsp;Workbench very easily.
+</p>
+
+<h3>Step 1:</h3>
+
+<p>
+  <strong>
+    Open your MySQL Workbench and click on Database. (You can also press Ctrl+R
+    and skip first two steps)
+  </strong>
+</p>
+
+<img
+  src="1-Click-On-Database-1.png"
+  alt="How to create ER Diagram of an existing database using MySQL Workbench step 1"
+/>
+
+<h3>Step 2:</h3>
+
+<p>
+  <strong>Now click on Reverse Engineer…</strong>
+</p>
+
+<img
+  src="2-Reverse-Eng-1.png"
+  alt="How to create ER Diagram of an existing database using MySQL Workbench step 1"
+/>
+
+<h3 id="6471">Step 3:</h3>
+
+<p>
+  <strong>Select your database connection and click on Next.</strong>
+</p>
+
+<img src="3-1.png" alt="" />
+
+<h3>Step 4:</h3>
+
+<p>
+  <strong>Click on Next when you see fetch finished.</strong>
+</p>
+
+<img src="4-1.png" alt="" />
+
+<h3 id="87b6">Step 5:</h3>
+
+<p>
+  <strong>
+    Select the database schema for which you want to create the ER diagram and
+    then click on Next.(You can select multiple databases also)
+  </strong>
+</p>
+
+<img src="5-1.png" alt="" />
+
+<p>
+  Also read:&nbsp;
+  <a
+    href="https://rishitpatel.com/the-boot-process/"
+    target="_blank"
+    rel="noreferrer noopener"
+  >
+    The Boot Process
+  </a>
+</p>
+
+<h3 id="443a">Step 6:</h3>
+
+<p>
+  <strong>
+    Now, it will retrieve objects from the selected database and check results,
+    after the blue ticks in similar to the image below appear and you see
+    Finished, click on Next.
+  </strong>
+</p>
+
+<img src="6-1.png" alt="" />
+
+<h3 id="04a1">Step 7:</h3>
+
+<p>
+  <strong>
+    Now there will be option to select MySQL table objects to reverse engineer,
+    it’s the objects for which you want to create the diagram, After selecting
+    objects click on Execute.
+  </strong>
+  <strong>
+    (Make sure that checkbox at bottom-left corner labeled as “Place imported
+    objects on a diagram is checked)
+  </strong>
+</p>
+
+<img src="7-1.png" alt="" />
+
+<h3 id="0fe2">Step 8:</h3>
+
+<p>
+  <strong>Now click on Next.</strong>
+</p>
+
+<img src="8-1.png" alt="" />
+
+<h3 id="eec6">Step 9:</h3>
+
+<p>
+  <strong>Click on Close.</strong>
+</p>
+
+<img src="9-1.png" alt="" />
+
+<h3 id="8b6c">Step 10:</h3>
+
+<p>
+  <strong>Now you will see the ER Diagram of an existing database</strong>
+  <strong>that you have selected.</strong>
+</p>
+
+<img src="10-1.png" alt="" />
+
+<p>
+  I hope you will find this tutorial on how to create ER Diagram of an existing
+  database using MySQL Workbench helpful. If you have any suggestions or you
+  need any help feel free to comment in the comment section below.
+</p>

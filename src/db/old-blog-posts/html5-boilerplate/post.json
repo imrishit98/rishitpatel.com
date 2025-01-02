@@ -1,0 +1,93 @@
+{
+  "title": "HTML5 Boilerplate: A Basic Skeleton File",
+  "date": "2020-09-09T00:00:00.000Z",
+  "dateModified": "2020-09-09T00:00:00.000Z",
+  "author": "Rishit Patel",
+  "description": "HTML5 Boilerplate: A basic skeleton file to start any project.",
+  "tags": [
+    "HTML",
+    "Web Development",
+    "HTML Template"
+  ],
+  "featureImage": "html5-boilerplate.jpg",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": "Nobody likes writing same code over and over again. That's why here's a HTML5 Boilerplate for your next web dev project. You can copy paste this skeleton code every time you want to create a webpage with HTML."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title></title>\n<link rel=\"icon\" href=\"images/favicon.png\" />\n<link rel=\"stylesheet\" href=\"css/styles.css\" />\n</head>\n<body>\n<script src=\"js/script.js\"></script>\n</body>\n</html>"
+    },
+    {
+      "type": "paragraph",
+      "content": "This HTML5 boilerplate code contains some important things that should be included in every HTML5 webpage. Let's go over those important codes."
+    },
+    {
+      "type": "heading",
+      "content": "The Doctype"
+    },
+    {
+      "type": "paragraph",
+      "content": "First thing in every HTML5 file should be Document Type Declaration, or doctype. This is simply a way to tell the browser what type of document it's looking at."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<!DOCTYPE html>"
+    },
+    {
+      "type": "heading",
+      "content": "The HTML tags"
+    },
+    {
+      "type": "paragraph",
+      "content": "Next up in in every HTML5 document should be opening and closing `html` tags. You can specify the language of your webpage by adding `lang` attribute. Here I've declared English language by adding `lang=\"en\"`."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<!DOCTYPE html>\n<html lang=\"en\"></html>"
+    },
+    {
+      "type": "heading",
+      "content": "The head section"
+    },
+    {
+      "type": "paragraph",
+      "content": "The next part of our webpage is the `head` section. The head section contains items like title of the webpage, meta tags, link tags for stylesheets."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title></title>\n</head>\n</html>"
+    },
+    {
+      "type": "heading",
+      "content": "The meta tags"
+    },
+    {
+      "type": "paragraph",
+      "content": "We need to add some meta tags between head tags to define some important things like character encoding of webpage, viewport width, etc. It's not mandatory but it helps browser to understand your webpage better."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<meta charset=\"UTF-8\" />\n<meta http-equiv=\"x-ua-compatible\" content=\"ie=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />"
+    },
+    {
+      "type": "heading",
+      "content": "Link to custom css and js"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can link your stylesheet file with html webpage by setting `href` attribute of `link` tag to location of your css file. Also, to link your JavaScript file your can set `src` attribute of `script` tag to location of your .js file."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "content": "<link rel=\"stylesheet\" href=\"css/styles.css\" />\n<script src=\"js/script.js\"></script>"
+    }
+  ]
+}

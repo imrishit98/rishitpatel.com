@@ -36,6 +36,13 @@ const projects = [
     url: 'https://worldofai.beehiiv.com/',
     type: 'Newsletter',
   },
+  {
+    title: 'revRN',
+    description:
+      'Transform your ideas into reality with our expert team. We build MVPs that are as unique as your vision. 🚀🌟',
+    url: 'https://revrn.com/',
+    type: 'MVP Building Service',
+  },
 ];
 
 export function ProjectsGrid() {

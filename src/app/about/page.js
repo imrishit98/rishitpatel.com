@@ -1,8 +1,6 @@
-import { Container } from '@/components/ui/containers';
 import { AboutHero } from '@/components/ui/about/hero';
 import { Skills } from '@/components/ui/about/skills';
-import { Approach } from '@/components/ui/about/approach';
-import { Contact } from '@/components/ui/about/contact';
+import { Container } from '@/components/ui/containers';
 
 export const metadata = {
   title: 'About | Rishit Patel',
@@ -12,13 +10,9 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <Container>
-      <div className='max-w-3xl mx-auto py-12 space-y-8'>
-        <AboutHero />
-        <Skills />
-        <Approach />
-        <Contact />
-      </div>
+    <Container className='pt-2 pb-12'>
+      <AboutHero />
+      <Skills />
     </Container>
   );
 }

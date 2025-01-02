@@ -1,10 +1,14 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { H2, P } from '../typography';
+import Link from 'next/link';
 
 const skills = {
-  frontend: ['React & Next.js', 'Tailwind CSS', 'TypeScript', 'Framer Motion'],
-  backend: ['Node.js', 'Python', 'RESTful APIs', 'Database Design'],
+  ui: ['Next.js', 'ReactJS', 'Tailwind CSS', 'Shadcn UI', 'Framer Motion'],
+  database: ['Supabase', 'Upstash', 'Pinecone'],
+  ai: ['Together AI', 'OpenAI', 'Claude', 'Replicate', 'Fal AI', 'Cursor'],
+  other: ['Stripe', 'Cloudflare R2', 'Loops', 'Plausible Analytics', 'Vercel'],
 };
 
 export function Skills() {
@@ -14,40 +18,61 @@ export function Skills() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.2 }}
       className='space-y-6'>
-      <div className='prose dark:prose-invert'>
-        <p>
-          I'm a full-stack developer with a passion for building modern, efficient, and
-          user-friendly web applications. My expertise lies in leveraging cutting-edge
-          technologies to create seamless digital experiences.
-        </p>
+      <div className='max-w-4xl'>
+        <H2>Tech Stack</H2>
 
-        <h2 className='text-2xl font-semibold mt-8 mb-4'>What I Do</h2>
-        <ul className='space-y-2'>
-          <li>Design and develop responsive web applications</li>
-          <li>Create efficient and scalable backend solutions</li>
-          <li>Implement AI-driven features and functionalities</li>
-          <li>Build modern user interfaces with React and Next.js</li>
-          <li>Optimize applications for maximum performance</li>
-        </ul>
-
-        <h2 className='text-2xl font-semibold mt-8 mb-4'>Technical Skills</h2>
-        <div className='grid grid-cols-2 gap-4 mb-6'>
-          <div>
-            <h3 className='font-medium mb-2'>Frontend</h3>
-            <ul className='space-y-1'>
-              {skills.frontend.map(skill => (
+        <div className='mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4'>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.3 }}
+            className='rounded-lg border p-4 shadow-sm'>
+            <h3 className='mb-3 font-semibold'>UI & Framework</h3>
+            <ul className='space-y-2 text-sm text-muted-foreground'>
+              {skills.ui.map(skill => (
                 <li key={skill}>{skill}</li>
               ))}
             </ul>
-          </div>
-          <div>
-            <h3 className='font-medium mb-2'>Backend</h3>
-            <ul className='space-y-1'>
-              {skills.backend.map(skill => (
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.4 }}
+            className='rounded-lg border p-4 shadow-sm'>
+            <h3 className='mb-3 font-semibold'>Database</h3>
+            <ul className='space-y-2 text-sm text-muted-foreground'>
+              {skills.database.map(skill => (
                 <li key={skill}>{skill}</li>
               ))}
             </ul>
-          </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.5 }}
+            className='rounded-lg border p-4 shadow-sm'>
+            <h3 className='mb-3 font-semibold'>AI & ML</h3>
+            <ul className='space-y-2 text-sm text-muted-foreground'>
+              {skills.ai.map(skill => (
+                <li key={skill}>{skill}</li>
+              ))}
+            </ul>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.6 }}
+            className='rounded-lg border p-4 shadow-sm'>
+            <h3 className='mb-3 font-semibold'>Other Tools</h3>
+            <ul className='space-y-2 text-sm text-muted-foreground'>
+              {skills.other.map(skill => (
+                <li key={skill}>{skill}</li>
+              ))}
+            </ul>
+          </motion.div>
         </div>
       </div>
     </motion.section>

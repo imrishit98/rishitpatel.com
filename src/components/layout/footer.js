@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { siteName } from '@/../site-config';
 import { Container } from '@/components/ui/containers';
 import { cn } from '@/utils/shadcn';
+import { AnimatedEmoji } from '@/components/ui/animated-emoji';
 
 const footerLinks = [
   { href: 'https://aitools.fyi', label: 'aitools.fyi' },
@@ -18,7 +19,7 @@ const Footer = () => {
   return (
     <footer className='border-t bg-background'>
       <Container className='flex flex-col items-center justify-center py-4 gap-2'>
-        <p className='text-sm '>
+        <p className='text-sm'>
           © {new Date().getFullYear()}{' '}
           <Link
             href='/'
@@ -30,7 +31,7 @@ const Footer = () => {
           </Link>
           . All Rights Reserved.
         </p>
-        <div className='flex items-center gap-4 text-sm '>
+        <div className='flex items-center gap-4 text-sm'>
           {footerLinks.map(link => (
             <Link
               key={link.href}
@@ -46,14 +47,19 @@ const Footer = () => {
             </Link>
           ))}
         </div>
-        <p className='text-sm  flex items-center gap-1'>
+        <p className='text-sm flex items-center gap-1'>
           Made with{' '}
-          <span
-            className='text-primary animate-pulse'
-            aria-label='love'>
-            💜
-          </span>{' '}
-          by Rishit Patel in Canada <span aria-label='maple leaf'>🍁</span>
+          <AnimatedEmoji
+            emoji='💜'
+            label='love'
+            className='text-primary animate-pulse hover:animate-none'
+          />{' '}
+          by Rishit Patel in Canada{' '}
+          <AnimatedEmoji
+            emoji='🍁'
+            label='maple leaf'
+            className='hover:animate-bounce'
+          />
         </p>
       </Container>
     </footer>

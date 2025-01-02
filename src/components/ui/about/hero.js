@@ -13,7 +13,8 @@ export function AboutHero() {
         About Me
       </h1>
       <p className='text-xl text-muted-foreground'>
-        AI Web Developer crafting exceptional digital experiences
+        Just a nerd who loves to code and build things. I specialize in money making web
+        apps and sites.
       </p>
     </motion.section>
   );

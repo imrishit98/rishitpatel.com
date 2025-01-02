@@ -57,6 +57,13 @@ const projects = [
     url: 'https://bimtoolshub.com/',
     type: 'Directory',
   },
+  {
+    title: 'Youfy',
+    description:
+      'The magical tool that converts your YouTube playlists into Spotify playlists! 🎶🔮',
+    url: 'https://youfyapp.com/',
+    type: 'Fun',
+  },
 ];
 
 export function ProjectsGrid() {

@@ -15,8 +15,6 @@ export default function AboutPage() {
     <Container className='pt-6 pb-12'>
       <AboutHero />
       <Skills />
-      <Approach />
-      <Contact />
     </Container>
   );
 }

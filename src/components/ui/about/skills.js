@@ -16,8 +16,8 @@ export function Skills() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.2 }}
       className='space-y-6'>
-      <div className='prose dark:prose-invert'>
-        <P>
+      <div className='max-w-4xl'>
+        <P className='mb-4'>
           I'm a full-stack developer from Northern Ontario 🍁 that builds money making
           machines on the web. If you want to make sites that generate revenue, feel free
           to{' '}

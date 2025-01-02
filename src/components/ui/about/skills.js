@@ -7,7 +7,7 @@ import Link from 'next/link';
 const skills = {
   ui: ['Next.js', 'Tailwind CSS', 'Shadcn UI'],
   database: ['Supabase', 'Upstash'],
-  ai: ['Together AI', 'OpenAI API', 'Pinecone', 'Carbon AI'],
+  ai: ['Together AI', 'OpenAI', 'Pinecone', 'Carbon AI'],
   other: ['Stripe', 'Cloudflare R2', 'Loops', 'Plausible Analytics'],
 };
 

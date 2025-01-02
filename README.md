@@ -4,7 +4,7 @@ My personal website and portfolio built with Next.js 14, Tailwind CSS, and shadc
 
 ## 🚀 Tech Stack
 
-- **Framework:** Next.js 14 (App Router)
+- **Framework:** Next.js 15 (App Router)
 - **Styling:** Tailwind CSS
 - **UI Components:** shadcn/ui
 - **Deployment:** Vercel

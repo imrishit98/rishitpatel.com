@@ -1,0 +1,160 @@
+{
+    "title": "How to create ER Diagram of an existing database using MySQL Workbench",
+    "date": "2019-11-05T00:00:00.000Z",
+    "dateModified": "2020-06-21T00:00:00.000Z",
+    "author": "Rishit Patel",
+    "description": "Step-by-step guide will help you create ER Diagram of an existing database using MySQL Workbench very easily. RishitPatel.com",
+    "tags": [
+        "mysql",
+        "database"
+    ],
+    "featureImage": "how-to-create-er-diagram-of-an-existing-database-using-mysql-workbench.png",
+    "content": [
+        {
+            "type": "paragraph",
+            "content": "The following step-by-step guide will help you create an ER Diagram of an existing database using MySQL Workbench easily."
+        },
+        {
+            "type": "heading",
+            "content": "Step 1:"
+        },
+        {
+            "type": "paragraph",
+            "content": "Open MySQL Workbench and click on Database (or press Ctrl+R to skip the first two steps)."
+        },
+        {
+            "type": "image",
+            "src": "1-Click-On-Database-1.png",
+            "alt": "Step 1: Click on Database"
+        },
+        {
+            "type": "heading",
+            "content": "Step 2:"
+        },
+        {
+            "type": "paragraph",
+            "content": "Click on Reverse Engineer…"
+        },
+        {
+            "type": "image",
+            "src": "2-Reverse-Eng-1.png",
+            "alt": "Step 2: Reverse Engineer"
+        },
+        {
+            "type": "heading",
+            "content": "Step 3:"
+        },
+        {
+            "type": "paragraph",
+            "content": "Select your database connection and click on Next."
+        },
+        {
+            "type": "image",
+            "src": "3-1.png",
+            "alt": "Step 3: Select Database Connection"
+        },
+        {
+            "type": "heading",
+            "content": "Step 4:"
+        },
+        {
+            "type": "paragraph",
+            "content": "Click on Next when you see 'fetch finished.'"
+        },
+        {
+            "type": "image",
+            "src": "4-1.png",
+            "alt": "Step 4: Fetch Finished"
+        },
+        {
+            "type": "heading",
+            "content": "Step 5:"
+        },
+        {
+            "type": "paragraph",
+            "content": "Select the database schema for which you want to create the ER diagram, then click on Next. (You can select multiple databases.)"
+        },
+        {
+            "type": "image",
+            "src": "5-1.png",
+            "alt": "Step 5: Select Database Schema"
+        },
+        {
+            "type": "paragraph",
+            "content": "Also read: <a href=\"https://rishitpatel.com/the-boot-process/\" target=\"_blank\" rel=\"noreferrer noopener\">The Boot Process</a>"
+        },
+        {
+            "type": "heading",
+            "content": "Step 6:"
+        },
+        {
+            "type": "paragraph",
+            "content": "Now, it will retrieve objects from the selected database. After the blue ticks appear, and you see 'Finished,' click on Next."
+        },
+        {
+            "type": "image",
+            "src": "6-1.png",
+            "alt": "Step 6: Retrieve Objects"
+        },
+        {
+            "type": "heading",
+            "content": "Step 7:"
+        },
+        {
+            "type": "paragraph",
+            "content": "Select MySQL table objects to reverse engineer. After selecting objects, click on Execute."
+        },
+        {
+            "type": "paragraph",
+            "content": "(Ensure the checkbox labeled 'Place imported objects on a diagram' is checked.)"
+        },
+        {
+            "type": "image",
+            "src": "7-1.png",
+            "alt": "Step 7: Select Table Objects"
+        },
+        {
+            "type": "heading",
+            "content": "Step 8:"
+        },
+        {
+            "type": "paragraph",
+            "content": "Now click on Next."
+        },
+        {
+            "type": "image",
+            "src": "8-1.png",
+            "alt": "Step 8: Click Next"
+        },
+        {
+            "type": "heading",
+            "content": "Step 9:"
+        },
+        {
+            "type": "paragraph",
+            "content": "Click on Close."
+        },
+        {
+            "type": "image",
+            "src": "9-1.png",
+            "alt": "Step 9: Click Close"
+        },
+        {
+            "type": "heading",
+            "content": "Step 10:"
+        },
+        {
+            "type": "paragraph",
+            "content": "You will now see the ER Diagram of the selected database."
+        },
+        {
+            "type": "image",
+            "src": "10-1.png",
+            "alt": "Step 10: ER Diagram"
+        },
+        {
+            "type": "paragraph",
+            "content": "I hope you find this tutorial helpful. If you have any suggestions or need assistance, feel free to comment below."
+        }
+    ]
+}

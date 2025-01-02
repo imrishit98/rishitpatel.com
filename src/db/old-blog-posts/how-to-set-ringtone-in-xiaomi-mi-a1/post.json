@@ -1,0 +1,110 @@
+{
+  "title": "How to set Ringtone in Xiaomi Mi A1",
+  "date": "2018-03-19T00:00:00.000Z",
+  "dateModified": "2020-06-19T00:00:00.000Z",
+  "author": "Rishit Patel",
+  "description": "Xiaomi Mi A1 comes with Android One which is less customizable. Here is a much needed step by step guide on How to set Ringtone in Xiaomi Mi A1.",
+  "tags": [
+    "Smartphones",
+    "How to",
+    "Tricks"
+  ],
+  "featureImage": "how-to-set-ringtone-in-xiaomi-mi-a1.png",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": "Xiaomi Mi A1 is one of the best budget Android smartphones of 2017, featuring a stock experience and a great camera in a premium body. However, it lacks the software customization available on other smartphones with MIUI. Setting a custom ringtone is part of personalizing your device. Today, we will share a step-by-step guide on how to set a ringtone in Xiaomi Mi A1."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "How to set ringtone in Xiaomi Mi A1 without any third-party apps"
+    },
+    {
+      "type": "paragraph",
+      "content": "To set a custom ringtone in Xiaomi Mi A1 without third-party apps, follow this simple method."
+    },
+    {
+      "type": "list",
+      "items": [
+        "First, download or save the ringtone you want to set.",
+        "Open the pre-installed file manager.",
+        "Find the folder where the ringtone is saved.",
+        "Copy the file by long-pressing it and tapping the copy button (overlapping square box button left to three vertical dots).",
+        "Go to Local > Internal storage > Ringtones.",
+        "Paste your ringtone by tapping the paste icon.",
+        "Go to Settings > Sound > Phone Ringtone.",
+        "Choose your ringtone from the list as the default phone ringtone.",
+        "Click OK and you're done!"
+      ]
+    },
+    {
+      "type": "link",
+      "href": "https://rishitpatel.com/how-to-set-ringtone-in-moto-e4-plus/",
+      "content": "Also read: How to set Ringtone in Moto E4 Plus"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "How to set Ringtone in Xiaomi Mi A1 using third-party apps"
+    },
+    {
+      "type": "paragraph",
+      "content": "If you encounter difficulties with the above method, you can use a third-party app called ES File Explorer. Download it from the Play Store and follow the steps below."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Download & install ES File Explorer.",
+        "Go to Settings > Sound > Phone Ringtone.",
+        "Select ES File Explorer to open.",
+        "Browse to the location where your desired ringtone is saved.",
+        "Click OK and you're done!"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "How to make custom Ringtone and set it as Ringtone in Xiaomi Mi A1 using third-party apps"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can create your own custom ringtones using MP3 Cutter and Ringtone Maker. Download it from the Play Store and follow the steps below."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Download & open MP3 Cutter and Ringtone Maker.",
+        "Tap on Cut a Song/Music.",
+        "Select a song to make a ringtone.",
+        "Cut the song according to your preference.",
+        "Tap the save button after cutting the song.",
+        "Save it as a ringtone by clicking 'save'.",
+        "Tap 'MAKE DEFAULT' and you're done!"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "These are simple methods to set a ringtone in Xiaomi Mi A1. If you have any issues related to this topic or anything else on our website, feel free to share it with us in the contact section."
+    },
+    {
+      "type": "link",
+      "href": "http://amzn.to/2ItKNCO",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "content": "Link to Amazon"
+    },
+    {
+      "type": "paragraph",
+      "content": "You may also like:"
+    },
+    {
+      "type": "link",
+      "href": "https://rishitpatel.com/how-to-set-ringtone-in-moto-g5-plus/",
+      "title": "How to set Ringtone in Moto G5 Plus",
+      "target": "_blank",
+      "rel": "bookmark noopener noreferrer",
+      "content": "How to set Ringtone in Moto G5 Plus"
+    }
+  ]
+}

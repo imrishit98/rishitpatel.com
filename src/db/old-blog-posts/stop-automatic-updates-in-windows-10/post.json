@@ -1,0 +1,67 @@
+{
+  "title": "How to Stop Automatic Updates in Windows 10",
+  "date": "2018-02-19T00:00:00.000Z",
+  "dateModified": "2020-06-17T00:00:00.000Z",
+  "author": "Rishit Patel",
+  "description": "Learn how to stop automatic updates in Windows 10 with these simple methods.",
+  "tags": [
+    "Windows 10",
+    "How to",
+    "Windows Tricks"
+  ],
+  "featureImage": "How-to-stop-automatic-updates-in-Windows-10-RishitPatel.com-1.png",
+  "content": [
+    {
+      "type": "paragraph",
+      "content": "Windows 10 mandates updates for all users. While Pro users can delay updates, Home users lack this option. Automatic updates enhance security and user experience, but many users prefer to manage them."
+    },
+    {
+      "type": "paragraph",
+      "content": "The controversy surrounding forced updates arises from varying internet speeds and data limitations. Users often experience slowdowns or crashes during updates, prompting the desire to stop them."
+    },
+    {
+      "type": "paragraph",
+      "content": "If you wish to delay or block automatic updates, there are effective methods available. Here’s how to stop automatic updates in Windows 10."
+    },
+    {
+      "type": "heading",
+      "content": "Stop Automatic Updates by Metered Connection"
+    },
+    {
+      "type": "paragraph",
+      "content": "Using a metered Internet connection is the simplest way to stop automatic updates for specific Wi-Fi networks. Follow these steps to set up a metered connection."
+    },
+    {
+      "type": "paragraph",
+      "content": "1. Open the Settings app by clicking the Start button and selecting the Settings gear, or use the shortcut ⊞Win + I."
+    },
+    {
+      "type": "paragraph",
+      "content": "2. Click on 'Network & Internet'."
+    },
+    {
+      "type": "paragraph",
+      "content": "3. Select the Wi-Fi connection you are using."
+    },
+    {
+      "type": "image",
+      "src": "how-to-stop-automatic-updates-in-windows-10-1.png",
+      "alt": "How to stop automatic updates in Windows 10",
+      "width": 800,
+      "height": 600,
+      "priority": false
+    },
+    {
+      "type": "paragraph",
+      "content": "4. Toggle the 'Set as metered connection' option to 'On'."
+    },
+    {
+      "type": "image",
+      "src": "how-to-stop-automatic-updates-in-windows-10-2.png",
+      "alt": "How to stop automatic updates in Windows 10",
+      "width": 800,
+      "height": 600,
+      "priority": false
+    }
+  ]
+}

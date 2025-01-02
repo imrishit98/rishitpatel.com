@@ -5,7 +5,7 @@ import { cn } from '@/utils/shadcn';
 
 const footerLinks = [
   { href: 'https://aitools.fyi', label: 'aitools.fyi' },
-  { href: '/privacy', label: 'Privacy Policy' },
+  { href: '/privacy-policy', label: 'Privacy Policy' },
 ];
 
 /**
@@ -18,7 +18,7 @@ const Footer = () => {
   return (
     <footer className='border-t bg-background'>
       <Container className='flex flex-col items-center justify-center py-4 gap-2'>
-        <p className='text-sm text-muted-foreground'>
+        <p className='text-sm '>
           © {new Date().getFullYear()}{' '}
           <Link
             href='/'
@@ -30,7 +30,7 @@ const Footer = () => {
           </Link>
           . All Rights Reserved.
         </p>
-        <div className='flex items-center gap-4 text-sm text-muted-foreground'>
+        <div className='flex items-center gap-4 text-sm '>
           {footerLinks.map(link => (
             <Link
               key={link.href}
@@ -46,7 +46,7 @@ const Footer = () => {
             </Link>
           ))}
         </div>
-        <p className='text-sm text-muted-foreground flex items-center gap-1'>
+        <p className='text-sm  flex items-center gap-1'>
           Made with{' '}
           <span
             className='text-primary animate-pulse'

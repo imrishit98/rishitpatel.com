@@ -18,22 +18,20 @@ const NavMenu = () => {
 
   const navLinks = [
     { href: '/about', label: 'About' },
-    { href: 'https://aitools.fyi/', label: 'aitools.fyi' },
-    { href: 'https://amazingnewsletters.com/', label: 'Amazing Newsletters' },
+    { href: '/projects', label: 'Projects' },
   ];
 
   return (
     <>
       <div className='hidden md:flex'>
-        {navLinks.map((link) => (
+        {navLinks.map(link => (
           <Link
             key={link.href}
             href={link.href}
             className='px-4 py-2 text-sm font-medium hover:font-bold'
             {...(link.href.startsWith('http')
               ? { target: '_blank', rel: 'noopener noreferrer' }
-              : {})}
-          >
+              : {})}>
             {link.label}
           </Link>
         ))}
@@ -43,16 +41,14 @@ const NavMenu = () => {
           className='p-2'
           type='button'
           aria-label='Toggle menu'
-          onClick={toggleMenu}
-        >
+          onClick={toggleMenu}>
           {isMenuOpen ? <CloseIcon /> : <MenuIcon />}
         </button>
         <div
           className={`absolute right-0 w-full bg-white shadow-md py-2 px-4 mt-2 rounded-md ${
             isMenuOpen ? 'block' : 'hidden'
-          }`}
-        >
-          {navLinks.map((link) => (
+          }`}>
+          {navLinks.map(link => (
             <Link
               key={link.href}
               href={link.href}
@@ -60,8 +56,7 @@ const NavMenu = () => {
               onClick={() => setIsMenuOpen(false)}
               {...(link.href.startsWith('http')
                 ? { target: '_blank', rel: 'noopener noreferrer' }
-                : {})}
-            >
+                : {})}>
               {link.label}
             </Link>
           ))}

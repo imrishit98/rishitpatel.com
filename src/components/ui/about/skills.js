@@ -5,8 +5,10 @@ import { H2, P } from '../typography';
 import Link from 'next/link';
 
 const skills = {
-  frontend: ['React & Next.js', 'Tailwind CSS', 'TypeScript', 'Framer Motion'],
-  backend: ['Node.js', 'Python', 'RESTful APIs', 'Database Design'],
+  ui: ['Next.js', 'Tailwind CSS', 'Shadcn UI'],
+  database: ['Supabase', 'Upstash'],
+  ai: ['Together AI', 'OpenAI API', 'Pinecone', 'Carbon AI'],
+  other: ['Stripe', 'Cloudflare R2', 'Loops', 'Plausible Analytics']
 };
 
 export function Skills() {

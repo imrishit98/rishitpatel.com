@@ -46,7 +46,7 @@ const projects = [
   {
     title: 'Tiny AI Tools',
     description:
-      "AI tools that pack a punch! It's like having a Swiss Army knife for your AI projects. 🧰🤖",
+      "AI tools that pack a punch! It's like having a Swiss Army knife for your business, but with more AI and less corkscrews. 🧰🤖",
     url: 'https://tiny.aitools.fyi/',
     type: 'SaaS',
   },

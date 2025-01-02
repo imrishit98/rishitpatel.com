@@ -51,7 +51,7 @@ const projects = [
     type: 'SaaS',
   },
   {
-    title: 'BIMToolsHub',
+    title: 'BIMToolsHub (coming soon)',
     description:
       'The ultimate directory for BIM tools! Find the best software for your projects, minus the endless Google searches. 🏗️🛠️',
     url: 'https://bimtoolshub.com/',

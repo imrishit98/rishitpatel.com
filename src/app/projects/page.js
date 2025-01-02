@@ -18,8 +18,7 @@ export default function ProjectsPage() {
         <PageHeaderHeading>Projects</PageHeaderHeading>
         <PageHeaderDescription>
           A collection of my work, ranging from directory websites to SaaS applications.
-          Each project is built with modern technologies and designed with user
-          experience in mind.
+          Each project is built with 💜 and Next JS.
         </PageHeaderDescription>
       </PageHeader>
 

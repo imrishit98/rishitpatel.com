@@ -50,6 +50,13 @@ const projects = [
     url: 'https://tiny.aitools.fyi/',
     type: 'SaaS',
   },
+  {
+    title: 'BIMToolsHub',
+    description:
+      'The ultimate directory for BIM tools! Find the best software for your projects, minus the endless Google searches. 🏗️🛠️',
+    url: 'https://bimtoolshub.com/',
+    type: 'Directory',
+  },
 ];
 
 export function ProjectsGrid() {

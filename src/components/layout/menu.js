@@ -19,6 +19,7 @@ const NavMenu = () => {
   const navLinks = [
     { href: '/about', label: 'About' },
     { href: '/projects', label: 'Projects' },
+    { href: 'https://x.com/imrishit98', label: 'Contact' },
   ];
 
   return (

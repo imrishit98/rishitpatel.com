@@ -1,3 +1,4 @@
+import Script from 'next/script';
 import siteConfig from '../../site-config';
 import Layout from '../components/layout';
 import '../styles/main.scss';
@@ -49,6 +50,11 @@ export default function RootLayout({ children }) {
       className={gabarito.className}>
       <body>
         <Layout>{children}</Layout>
+        <Script
+          defer
+          data-domain='rishitpatel.com'
+          src='/js/script.file-downloads.outbound-links.pageview-props.tagged-events.js'
+        />
       </body>
     </html>
   );

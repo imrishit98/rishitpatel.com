@@ -9,6 +9,13 @@ const projects = [
     type: 'Directory',
   },
   {
+    title: 'Invoice Mama',
+    description:
+      'Generate professional invoices in 10 seconds! AI-powered invoicing for freelancers and small businesses. Fast, smart, and ridiculously easy. 💼✨',
+    url: 'https://invoicemama.com/',
+    type: 'SaaS',
+  },
+  {
     title: 'Amazing Newsletters',
     description:
       'The Netflix of newsletters! Binge-worthy content delivered straight to your inbox, minus the "are you still reading?" prompts. 📧✨',

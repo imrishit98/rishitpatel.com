@@ -64,7 +64,7 @@ const socialLinks = [
     href: 'https://tally.so/r/nGX6Bz',
     icon: Mail,
     label: 'Email',
-    hoverColor: 'hover:text-primary',
+    hoverColor: 'hover:text-[#EA4335]',
   },
 ];
 

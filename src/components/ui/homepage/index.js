@@ -36,26 +36,47 @@ const stats = [
 ];
 
 const socialLinks = [
-  { href: 'https://twitter.com/imrishit98', icon: Twitter, label: 'Twitter' },
-  { href: 'https://github.com/imrishit98', icon: Github, label: 'GitHub' },
-  { href: 'https://linkedin.com/in/imrishit98', icon: Linkedin, label: 'LinkedIn' },
-  { href: 'https://instagram.com/imrishit98', icon: Instagram, label: 'Instagram' },
-  { href: 'https://tally.so/r/nGX6Bz', icon: Mail, label: 'Email' },
+  {
+    href: 'https://twitter.com/imrishit98',
+    icon: Twitter,
+    label: 'Twitter',
+    hoverColor: 'hover:text-[#1DA1F2]',
+  },
+  {
+    href: 'https://github.com/imrishit98',
+    icon: Github,
+    label: 'GitHub',
+    hoverColor: 'hover:text-[#333333] dark:hover:text-white',
+  },
+  {
+    href: 'https://linkedin.com/in/imrishit98',
+    icon: Linkedin,
+    label: 'LinkedIn',
+    hoverColor: 'hover:text-[#0A66C2]',
+  },
+  {
+    href: 'https://instagram.com/imrishit98',
+    icon: Instagram,
+    label: 'Instagram',
+    hoverColor: 'hover:text-[#E4405F]',
+  },
+  {
+    href: 'https://tally.so/r/nGX6Bz',
+    icon: Mail,
+    label: 'Email',
+    hoverColor: 'hover:text-[#EA4335]',
+  },
 ];
 
-const SocialButton = ({ href, Icon, label }) => (
-  <Button
-    variant='ghost'
-    size='icon'
-    asChild>
-    <Link
-      href={href}
-      target={href.startsWith('http') ? '_blank' : undefined}
-      rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}>
-      <Icon className='h-5 w-5' />
-      <span className='sr-only'>{label}</span>
-    </Link>
-  </Button>
+const SocialButton = ({ href, Icon, label, hoverColor }) => (
+  <Link
+    href={href}
+    target={href.startsWith('http') ? '_blank' : undefined}
+    rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
+    className={`inline-flex items-center justify-center rounded-md h-10 w-10 hover:bg-accent transition-colors duration-200 ${hoverColor}`}>
+    <Icon className='h-5 w-5 transition-colors duration-200' />
+    <span className='sr-only'>{label}</span>
+  </Link>
 );
 
 const HomeAnimationDiv = () => {
@@ -106,12 +127,13 @@ const HomeAnimationDiv = () => {
       <motion.div variants={animations.item}>
         <h2 className='text-lg font-semibold mb-4'>Let's Connect</h2>
         <div className='flex gap-4'>
-          {socialLinks.map(({ href, icon: Icon, label }) => (
+          {socialLinks.map(({ href, icon: Icon, label, hoverColor }) => (
             <SocialButton
               key={href}
               href={href}
               Icon={Icon}
               label={label}
+              hoverColor={hoverColor}
             />
           ))}
         </div>

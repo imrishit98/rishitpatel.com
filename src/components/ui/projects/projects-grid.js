@@ -23,7 +23,7 @@ const projects = [
     type: 'Directory',
   },
   {
-    title: 'PDF Peer',
+    title: 'PDFPeer',
     description:
       'The superhero your PDFs deserve! Turning boring documents into well-behaved files faster than you can say "paperless". 📄💪',
     url: 'https://pdfpeer.com/',
